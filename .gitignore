@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Logs and output
+logs/
+*.log
+
+# Data files
+*.csv
+*.json
+
+# Flask templates cache
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
