@@ -20,6 +20,8 @@
         .anomaly-item { padding: 15px; border-left: 4px solid #e74c3c; margin-bottom: 10px; background: #fdf2f2; border-radius: 5px; }
         .anomaly-item:nth-child(odd) { background: #f8f9fa; }
         .anomaly-score { font-weight: bold; color: #e74c3c; }
+        .anomaly-reason { font-style: italic; color: #666; margin-top: 5px; padding: 8px; background: #f8f9fa; border-radius: 4px; }
+        .severity-factors { font-size: 0.9em; color: #888; margin-top: 5px; }
         .status-indicator { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 10px; }
         .status-active { background: #2ecc71; box-shadow: 0 0 10px #2ecc71; }
         .status-initializing { background: #f39c12; }
@@ -41,6 +43,50 @@
         .severity-high { background: #ffebee; border-left-color: #c62828; }
         .severity-medium { background: #fff8e1; border-left-color: #ff8f00; }
         .severity-low { background: #e8f5e9; border-left-color: #2e7d32; }
+        
+        /* Degradation Alerts */
+        .degradation-alerts { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .degradation-alert { padding: 15px; border-left: 4px solid #ff9800; margin-bottom: 10px; background: #fff3e0; border-radius: 5px; }
+        .degradation-alert.high { border-left-color: #f44336; background: #ffebee; }
+        .degradation-alert.medium { border-left-color: #ff9800; background: #fff3e0; }
+        .degradation-alert.low { border-left-color: #4caf50; background: #e8f5e8; }
+        .alert-type { font-weight: bold; color: #333; }
+        .alert-severity { font-size: 0.8em; padding: 2px 6px; border-radius: 3px; color: white; }
+        .alert-severity.high { background: #f44336; }
+        .alert-severity.medium { background: #ff9800; }
+        .alert-severity.low { background: #4caf50; }
+        
+        /* CSV Upload Section */
+        .csv-upload { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .upload-form { display: flex; gap: 10px; align-items: center; }
+        .upload-form input[type="file"] { flex: 1; }
+        .upload-form button { background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        .upload-form button:hover { background: #2980b9; }
+        .upload-status { margin-top: 10px; padding: 10px; border-radius: 5px; }
+        .upload-success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .upload-error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        
+        /* CSV Chart */
+        .csv-chart-container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .csv-chart-wrapper { height: 400px; position: relative; }
+        
+        /* CSV Anomalies */
+        .csv-anomalies { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .csv-anomaly-item { padding: 15px; border-left: 4px solid #e74c3c; margin-bottom: 10px; background: #fdf2f2; border-radius: 5px; }
+        
+        /* Analysis History */
+        .history-section { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .history-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .history-table th, .history-table td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        .history-table th { background-color: #f8f9fa; font-weight: bold; }
+        .history-table tr:hover { background-color: #f5f5f5; }
+        .history-table button { background: #3498db; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
+        .history-table button:hover { background: #2980b9; }
+        
+        /* Analysis Details */
+        .analysis-details { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        .details-header { border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; }
+        .detail-item { padding: 10px; border-bottom: 1px solid #eee; }
     </style>
 </head>
 <body>
@@ -48,6 +94,33 @@
         <div class="header">
             <h1>System Monitor Dashboard</h1>
             <div id="status">Status: <span class="status-indicator status-initializing"></span> <span id="status-text">Initializing...</span></div>
+        </div>
+
+        <!-- CSV Upload Section -->
+        <div class="csv-upload">
+            <h2>Upload CSV Data for Analysis</h2>
+            <div class="upload-form">
+                <input type="file" id="csv-file" accept=".csv">
+                <button onclick="uploadCSV()">Analyze CSV</button>
+            </div>
+            <div id="upload-status"></div>
+        </div>
+
+        <!-- Degradation Alerts Section -->
+        <div class="degradation-alerts">
+            <h2>Degradation Alerts (Early Warning System)</h2>
+            <div id="degradation-alerts-container">
+                <p>No degradation alerts detected. System appears stable.</p>
+            </div>
+        </div>
+
+        <!-- Analysis History Section -->
+        <div class="history-section">
+            <h2>Analysis History</h2>
+            <button onclick="loadAnalysisHistory()">Refresh History</button>
+            <div id="history-container">
+                <p>Loading analysis history...</p>
+            </div>
         </div>
 
         <div class="metrics-grid">
@@ -90,21 +163,50 @@
                 <div class="stat-label">Anomalies</div>
             </div>
             <div class="stat-card">
+                <div class="stat-value" id="degradation-count">0</div>
+                <div class="stat-label">Degradation Alerts</div>
+            </div>
+            <div class="stat-card">
                 <div class="stat-value" id="uptime">0</div>
                 <div class="stat-label">Uptime (sec)</div>
             </div>
         </div>
 
+        <!-- Real-time Chart -->
         <div class="chart-container">
-            <h2>System Metrics (Last 30 samples)</h2>
-            <!-- FIXED HEIGHT CHART WRAPPER -->
+            <h2>Real-time System Metrics (Last 30 samples)</h2>
             <div class="chart-wrapper">
                 <canvas id="metricsChart"></canvas>
             </div>
         </div>
 
+        <!-- CSV Data Chart -->
+        <div class="csv-chart-container">
+            <h2>CSV Data Analysis</h2>
+            <div class="chart-wrapper">
+                <canvas id="csvChart"></canvas>
+            </div>
+        </div>
+
+        <!-- CSV Anomalies -->
+        <div class="csv-anomalies">
+            <h2>Detected CSV Anomalies</h2>
+            <div id="csv-anomalies-container">
+                <p>No CSV data analyzed yet.</p>
+            </div>
+        </div>
+
+        <!-- Analysis Details (Hidden by default) -->
+        <div class="analysis-details" id="analysis-details-section" style="display: none;">
+            <div class="details-header">
+                <h2 id="analysis-details-title">Analysis Details</h2>
+            </div>
+            <div id="analysis-details-content"></div>
+        </div>
+
+        <!-- Real-time Anomalies -->
         <div class="anomalies-list">
-            <h2>Critical Anomalies Only</h2>
+            <h2>Real-time Critical Anomalies Only (Score < -0.1)</h2>
             <div id="anomalies-container">
                 <p>No critical anomalies detected. System appears normal.</p>
             </div>
@@ -114,9 +216,11 @@
     <script>
         const socket = io();
         let metricsChart = null;
+        let csvChart = null;
         let chartInitialized = false;
+        let csvChartInitialized = false;
 
-        // Initialize chart
+        // Initialize real-time chart
         function initChart(initialData) {
             const ctx = document.getElementById('metricsChart').getContext('2d');
             
@@ -130,7 +234,8 @@
             // Process initial data
             for (let i = 0; i < initialData.length; i++) {
                 const item = initialData[i];
-                labels.push(new Date(item.timestamp * 1000).toLocaleTimeString());
+                const timeStr = new Date(item.timestamp * 1000).toLocaleTimeString();
+                labels.push(timeStr);
                 cpuData.push(item.cpu_percent);
                 memoryData.push(item.memory_percent);
                 diskData.push(item.disk_read_mb);
@@ -162,7 +267,7 @@
                         },
                         {
                             label: 'Disk Read (MB/s)',
-                            data: diskData,
+                             diskData,
                             borderColor: '#2ecc71',
                             backgroundColor: 'rgba(46, 204, 113, 0.1)',
                             tension: 0.1,
@@ -171,7 +276,7 @@
                         },
                         {
                             label: 'Network Sent (MB/s)',
-                            data: networkData,
+                             networkData,
                             borderColor: '#e74c3c',
                             backgroundColor: 'rgba(231, 76, 60, 0.1)',
                             tension: 0.1,
@@ -182,8 +287,8 @@
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: false, // Allow custom sizing
-                    animation: false, // Disable animations for better performance
+                    maintainAspectRatio: false,
+                    animation: false,
                     scales: {
                         y: {
                             beginAtZero: true,
@@ -196,7 +301,7 @@
                                 color: 'rgba(0, 0, 0, 0.05)'
                             },
                             ticks: {
-                                maxTicksLimit: 8 // Limit x-axis labels
+                                maxTicksLimit: 8
                             }
                         }
                     },
@@ -224,7 +329,116 @@
             chartInitialized = true;
         }
 
-        // Update chart with new data point
+        // Initialize CSV chart
+        function initCSVChart(csvData) {
+            const ctx = document.getElementById('csvChart').getContext('2d');
+            
+            // Prepare chart data
+            const labels = [];
+            const cpuData = [];
+            const memoryData = [];
+            const diskData = [];
+            const networkData = [];
+            
+            // Process CSV data
+            for (let i = 0; i < csvData.length; i++) {
+                const item = csvData[i];
+                const timeStr = item.display_time || (item.timestamp ? new Date(item.timestamp * 1000).toLocaleTimeString() : i);
+                labels.push(timeStr);
+                cpuData.push(item.cpu_percent || 0);
+                memoryData.push(item.memory_percent || 0);
+                diskData.push(item.disk_read_mb || 0);
+                networkData.push(item.network_sent_mb || 0);
+            }
+            
+            csvChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'CPU %',
+                             cpuData,
+                            borderColor: '#3498db',
+                            backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                            tension: 0.1,
+                            fill: true,
+                            pointRadius: 0
+                        },
+                        {
+                            label: 'Memory %',
+                            data: memoryData,
+                            borderColor: '#9b59b6',
+                            backgroundColor: 'rgba(155, 89, 182, 0.1)',
+                            tension: 0.1,
+                            fill: true,
+                            pointRadius: 0
+                        },
+                        {
+                            label: 'Disk Read (MB/s)',
+                             diskData,
+                            borderColor: '#2ecc71',
+                            backgroundColor: 'rgba(46, 204, 113, 0.1)',
+                            tension: 0.1,
+                            fill: true,
+                            pointRadius: 0
+                        },
+                        {
+                            label: 'Network Sent (MB/s)',
+                             networkData,
+                            borderColor: '#e74c3c',
+                            backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                            tension: 0.1,
+                            fill: true,
+                            pointRadius: 0
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            },
+                            ticks: {
+                                maxTicksLimit: 15
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                usePointStyle: true,
+                                padding: 15
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false
+                        }
+                    },
+                    interaction: {
+                        mode: 'nearest',
+                        axis: 'x',
+                        intersect: false
+                    }
+                }
+            });
+            
+            csvChartInitialized = true;
+        }
+
+        // Update real-time chart with new data point
         function updateChart(data) {
             if (!chartInitialized) return;
             
@@ -244,7 +458,7 @@
             }
             
             // Update chart
-            metricsChart.update('none'); // No animation for better performance
+            metricsChart.update('none');
         }
 
         // Update metrics display
@@ -303,7 +517,232 @@
         function updateStats(stats) {
             document.getElementById('data-points').textContent = stats.data_points || 0;
             document.getElementById('anomalies-count').textContent = stats.anomalies_count || 0;
+            document.getElementById('degradation-count').textContent = stats.degradation_alerts_count || 0;
             document.getElementById('uptime').textContent = stats.uptime || 0;
+        }
+
+        // Upload CSV file
+        function uploadCSV() {
+            const fileInput = document.getElementById('csv-file');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                showUploadStatus('Please select a CSV file first.', 'error');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            showUploadStatus('Uploading and analyzing CSV file...', 'info');
+            
+            fetch('/api/upload-csv', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    showUploadStatus('Error: ' + data.error, 'error');
+                } else {
+                    showUploadStatus('Success! Processed ' + data.total_records + ' records. Found ' + data.anomalies_found + ' anomalies (' + data.anomaly_rate.toFixed(2) + '%).', 'success');
+                    // Refresh CSV data and anomalies
+                    refreshCSVData();
+                    // Refresh analysis history
+                    loadAnalysisHistory();
+                }
+            })
+            .catch(error => {
+                showUploadStatus('Error uploading file: ' + error.message, 'error');
+            });
+        }
+
+        // Show upload status
+        function showUploadStatus(message, type) {
+            const statusDiv = document.getElementById('upload-status');
+            statusDiv.textContent = message;
+            statusDiv.className = 'upload-status';
+            if (type === 'success') {
+                statusDiv.classList.add('upload-success');
+            } else if (type === 'error') {
+                statusDiv.classList.add('upload-error');
+            }
+        }
+
+        // Refresh CSV data
+        function refreshCSVData() {
+            // Fetch CSV data for chart
+            fetch('/api/csv-data')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        if (csvChartInitialized) {
+                            csvChart.destroy();
+                        }
+                        initCSVChart(data);
+                    }
+                })
+                .catch(console.error);
+            
+            // Fetch CSV anomalies
+            fetch('/api/csv-anomalies')
+                .then(response => response.json())
+                .then(anomalies => {
+                    const container = document.getElementById('csv-anomalies-container');
+                    if (anomalies.length > 0) {
+                        container.innerHTML = '';
+                        // Show only top 20 anomalies
+                        const topAnomalies = anomalies.slice(0, 20);
+                        topAnomalies.forEach(anomaly => {
+                            const anomalyDiv = document.createElement('div');
+                            anomalyDiv.className = 'csv-anomaly-item';
+                            const timestamp = new Date(anomaly.timestamp * 1000).toLocaleString();
+                            let severityFactorsHtml = '';
+                            if (anomaly.severity_factors && anomaly.severity_factors.length > 0) {
+                                severityFactorsHtml = '<div class="severity-factors"><strong>Severity Factors:</strong> ' + anomaly.severity_factors.join(', ') + '</div>';
+                            }
+                            anomalyDiv.innerHTML = 
+                                '<div><strong>Row ' + anomaly.index + '</strong> - ' + timestamp + '</div>' +
+                                '<div>Anomaly Score: <span class="anomaly-score">' + anomaly.anomaly_score.toFixed(3) + '</span></div>' +
+                                '<div class="anomaly-reason"><strong>Reason:</strong> ' + anomaly.reason + '</div>' +
+                                severityFactorsHtml +
+                                '<div>' +
+                                '<span style="color: #3498db;">CPU: ' + anomaly.metrics.cpu_percent.toFixed(1) + '%</span> | ' +
+                                '<span style="color: #9b59b6;">Memory: ' + anomaly.metrics.memory_percent.toFixed(1) + '%</span> | ' +
+                                '<span style="color: #2ecc71;">Disk: ' + anomaly.metrics.disk_read_mb.toFixed(2) + ' MB/s</span> | ' +
+                                '<span style="color: #e74c3c;">Network: ' + anomaly.metrics.network_sent_mb.toFixed(2) + ' MB/s</span>' +
+                                '</div>';
+                            container.appendChild(anomalyDiv);
+                        });
+                    } else {
+                        container.innerHTML = '<p>No anomalies detected in CSV data.</p>';
+                    }
+                })
+                .catch(console.error);
+        }
+
+        // Load analysis history
+        function loadAnalysisHistory() {
+            fetch('/api/analysis-history')
+                .then(response => response.json())
+                .then(history => {
+                    const container = document.getElementById('history-container');
+                    if (history.length > 0) {
+                        let html = '<table class="history-table">';
+                        html += '<thead><tr><th>File Name</th><th>Date</th><th>Records</th><th>Anomalies</th><th>Rate</th><th>Actions</th></tr></thead>';
+                        html += '<tbody>';
+                        
+                        history.forEach(item => {
+                            html += '<tr>';
+                            html += '<td>' + item.filename + '</td>';
+                            html += '<td>' + new Date(item.upload_time).toLocaleString() + '</td>';
+                            html += '<td>' + item.total_records + '</td>';
+                            html += '<td>' + item.anomalies_found + '</td>';
+                            html += '<td>' + item.anomaly_rate.toFixed(2) + '%</td>';
+                            html += '<td><button onclick="viewAnalysisDetails(' + item.id + ')">View Details</button></td>';
+                            html += '</tr>';
+                        });
+                        
+                        html += '</tbody></table>';
+                        container.innerHTML = html;
+                    } else {
+                        container.innerHTML = '<p>No analysis history found.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading history:', error);
+                    document.getElementById('history-container').innerHTML = '<p>Error loading analysis history.</p>';
+                });
+        }
+
+        // View analysis details
+        function viewAnalysisDetails(analysisId) {
+            fetch('/api/analysis-details/' + analysisId)
+                .then(response => response.json())
+                .then(details => {
+                    if (details.error) {
+                        alert('Error: ' + details.error);
+                        return;
+                    }
+                    
+                    const section = document.getElementById('analysis-details-section');
+                    const title = document.getElementById('analysis-details-title');
+                    const content = document.getElementById('analysis-details-content');
+                    
+                    // Set title
+                    title.textContent = 'Analysis Details: ' + details.summary.filename;
+                    
+                    // Set content
+                    let html = '<div style="margin-bottom: 20px;">';
+                    html += '<strong>Upload Time:</strong> ' + new Date(details.summary.upload_time).toLocaleString() + '<br>';
+                    html += '<strong>Total Records:</strong> ' + details.summary.total_records + '<br>';
+                    html += '<strong>Anomalies Found:</strong> ' + details.summary.anomalies_found + '<br>';
+                    html += '<strong>Anomaly Rate:</strong> ' + details.summary.anomaly_rate.toFixed(2) + '%<br>';
+                    html += '</div>';
+                    
+                    if (details.anomalies.length > 0) {
+                        html += '<h3>Detected Anomalies (' + details.anomalies.length + ')</h3>';
+                        
+                        // Show top 50 anomalies
+                        const topAnomalies = details.anomalies.slice(0, 50);
+                        topAnomalies.forEach(anomaly => {
+                            html += '<div class="detail-item">';
+                            html += '<div><strong>Row ' + anomaly.index + '</strong> - Score: <span class="anomaly-score">' + anomaly.anomaly_score.toFixed(3) + '</span></div>';
+                            html += '<div class="anomaly-reason"><strong>Reason:</strong> ' + anomaly.reason + '</div>';
+                            if (anomaly.severity_factors && anomaly.severity_factors.length > 0) {
+                                html += '<div class="severity-factors"><strong>Severity Factors:</strong> ' + anomaly.severity_factors.join(', ') + '</div>';
+                            }
+                            html += '<div>';
+                            html += '<span style="color: #3498db;">CPU: ' + (anomaly.metrics.cpu_percent ? parseFloat(anomaly.metrics.cpu_percent).toFixed(1) : 'N/A') + '%</span> | ';
+                            html += '<span style="color: #9b59b6;">Memory: ' + (anomaly.metrics.memory_percent ? parseFloat(anomaly.metrics.memory_percent).toFixed(1) : 'N/A') + '%</span> | ';
+                            html += '<span style="color: #2ecc71;">Disk: ' + (anomaly.metrics.disk_read_mb ? parseFloat(anomaly.metrics.disk_read_mb).toFixed(2) : 'N/A') + ' MB/s</span> | ';
+                            html += '<span style="color: #e74c3c;">Network: ' + (anomaly.metrics.network_sent_mb ? parseFloat(anomaly.metrics.network_sent_mb).toFixed(2) : 'N/A') + ' MB/s</span>';
+                            html += '</div>';
+                            html += '</div>';
+                        });
+                    } else {
+                        html += '<p>No anomalies detected in this analysis.</p>';
+                    }
+                    
+                    content.innerHTML = html;
+                    section.style.display = 'block';
+                    
+                    // Scroll to details section
+                    section.scrollIntoView({ behavior: 'smooth' });
+                })
+                .catch(error => {
+                    console.error('Error loading analysis details:', error);
+                    alert('Error loading analysis details.');
+                });
+        }
+
+        // Refresh degradation alerts
+        function refreshDegradationAlerts() {
+            fetch('/api/degradation-alerts')
+                .then(response => response.json())
+                .then(alerts => {
+                    const container = document.getElementById('degradation-alerts-container');
+                    if (alerts.length > 0) {
+                        container.innerHTML = '';
+                        // Show only top 10 alerts
+                        const recentAlerts = alerts.slice(0, 10);
+                        recentAlerts.forEach(alert => {
+                            const alertDiv = document.createElement('div');
+                            alertDiv.className = 'degradation-alert ' + (alert.severity || 'low');
+                            
+                            const timestamp = new Date(alert.timestamp).toLocaleString();
+                            alertDiv.innerHTML = 
+                                '<div><span class="alert-type">' + alert.alert_type.toUpperCase() + '</span> ' +
+                                '<span class="alert-severity ' + alert.severity + '">' + alert.severity.toUpperCase() + '</span></div>' +
+                                '<div><strong>' + timestamp + '</strong></div>' +
+                                '<div>' + alert.description + '</div>';
+                            container.appendChild(alertDiv);
+                        });
+                    } else {
+                        container.innerHTML = '<p>No degradation alerts detected. System appears stable.</p>';
+                    }
+                })
+                .catch(console.error);
         }
 
         // Handle real-time metrics updates
@@ -316,6 +755,38 @@
             updateStatus(data.status);
             
             // Refresh stats when status changes
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(updateStats)
+                .catch(console.error);
+        });
+
+        // Handle degradation alerts
+        socket.on('degradation_alert', function(data) {
+            const container = document.getElementById('degradation-alerts-container');
+            
+            // Clear "no alerts" message if present
+            if (container.children.length === 1 && container.children[0].textContent.includes('No degradation alerts')) {
+                container.innerHTML = '';
+            }
+            
+            const alertDiv = document.createElement('div');
+            alertDiv.className = 'degradation-alert ' + (data.severity || 'low');
+            
+            const timestamp = new Date(data.timestamp).toLocaleString();
+            alertDiv.innerHTML = 
+                '<div><span class="alert-type">' + data.alert_type.toUpperCase() + '</span> ' +
+                '<span class="alert-severity ' + data.severity + '">' + data.severity.toUpperCase() + '</span></div>' +
+                '<div><strong>' + timestamp + '</strong></div>' +
+                '<div>' + data.description + '</div>';
+            container.insertBefore(alertDiv, container.firstChild);
+            
+            // Remove old alerts if more than 15
+            while (container.children.length > 15) {
+                container.removeChild(container.lastChild);
+            }
+            
+            // Update degradation count
             fetch('/api/status')
                 .then(response => response.json())
                 .then(updateStats)
@@ -342,18 +813,24 @@
                 severityText = 'HIGH';
             }
             
-            anomalyDiv.className = `anomaly-item ${severityClass}`;
+            anomalyDiv.className = 'anomaly-item ' + severityClass;
             
-            anomalyDiv.innerHTML = `
-                <div><strong>${new Date(data.timestamp).toLocaleString()}</strong> <span class="timestamp">(${new Date(data.timestamp).toLocaleTimeString()})</span></div>
-                <div>Severity: <strong>${severityText}</strong> | Anomaly Score: <span class="anomaly-score">${data.anomaly_score.toFixed(3)}</span></div>
-                <div>
-                    <span style="color: #3498db;">CPU: ${data.metrics.cpu_percent.toFixed(1)}%</span> | 
-                    <span style="color: #9b59b6;">Memory: ${data.metrics.memory_percent.toFixed(1)}%</span> | 
-                    <span style="color: #2ecc71;">Disk: ${data.metrics.disk_read_mb.toFixed(2)} MB/s</span> | 
-                    <span style="color: #e74c3c;">Network: ${data.metrics.network_sent_mb.toFixed(2)} MB/s</span>
-                </div>
-            `;
+            let severityFactorsHtml = '';
+            if (data.severity_factors && data.severity_factors.length > 0) {
+                severityFactorsHtml = '<div class="severity-factors"><strong>Severity Factors:</strong> ' + data.severity_factors.join(', ') + '</div>';
+            }
+            
+            anomalyDiv.innerHTML = 
+                '<div><strong>' + new Date(data.timestamp).toLocaleString() + '</strong> <span class="timestamp">(' + new Date(data.timestamp).toLocaleTimeString() + ')</span></div>' +
+                '<div>Severity: <strong>' + severityText + '</strong> | Anomaly Score: <span class="anomaly-score">' + data.anomaly_score.toFixed(3) + '</span></div>' +
+                '<div class="anomaly-reason"><strong>Reason:</strong> ' + data.reason + '</div>' +
+                severityFactorsHtml +
+                '<div>' +
+                '<span style="color: #3498db;">CPU: ' + data.metrics.cpu_percent.toFixed(1) + '%</span> | ' +
+                '<span style="color: #9b59b6;">Memory: ' + data.metrics.memory_percent.toFixed(1) + '%</span> | ' +
+                '<span style="color: #2ecc71;">Disk: ' + data.metrics.disk_read_mb.toFixed(2) + ' MB/s</span> | ' +
+                '<span style="color: #e74c3c;">Network: ' + data.metrics.network_sent_mb.toFixed(2) + ' MB/s</span>' +
+                '</div>';
             container.insertBefore(anomalyDiv, container.firstChild);
             
             // Remove old anomalies if more than 15
@@ -365,20 +842,39 @@
         // Fetch initial data
         Promise.all([
             fetch('/api/status').then(response => response.json()),
-            fetch('/api/chart-data').then(response => response.json())
-        ]).then(([statusData, chartData]) => {
+            fetch('/api/chart-data').then(response => response.json()),
+            fetch('/api/csv-data').then(response => response.json())
+        ]).then(function(results) {
+            var statusData = results[0];
+            var chartData = results[1];
+            var csvData = results[2];
+            
             updateStatus(statusData.status);
             updateStats(statusData);
             
-            // Initialize chart with historical data
+            // Initialize real-time chart with historical data
             if (chartData.length > 0) {
                 initChart(chartData);
             } else {
                 // Initialize with empty chart
                 initChart([]);
             }
-        }).catch(error => {
-            console.error('Error fetching initial data:', error);
+            
+            // Initialize CSV chart if data available
+            if (csvData.length > 0) {
+                initCSVChart(csvData);
+            }
+            
+            // Refresh CSV anomalies
+            refreshCSVData();
+            
+            // Load analysis history
+            loadAnalysisHistory();
+            
+            // Refresh degradation alerts
+            refreshDegradationAlerts();
+        }).catch(function(error) {
+            console.error('Error fetching initial ', error);
             updateStatus('error');
         });
 
@@ -400,17 +896,25 @@
                             severityText = 'HIGH';
                         }
                         
-                        anomalyDiv.className = `anomaly-item ${severityClass}`;
-                        anomalyDiv.innerHTML = `
-                            <div><strong>${new Date(anomaly.timestamp).toLocaleString()}</strong></div>
-                            <div>Severity: <strong>${severityText}</strong> | Anomaly Score: <span class="anomaly-score">${anomaly.anomaly_score.toFixed(3)}</span></div>
-                            <div>
-                                <span style="color: #3498db;">CPU: ${anomaly.metrics.cpu_percent.toFixed(1)}%</span> | 
-                                <span style="color: #9b59b6;">Memory: ${anomaly.metrics.memory_percent.toFixed(1)}%</span> | 
-                                <span style="color: #2ecc71;">Disk: ${anomaly.metrics.disk_read_mb.toFixed(2)} MB/s</span> | 
-                                <span style="color: #e74c3c;">Network: ${anomaly.metrics.network_sent_mb.toFixed(2)} MB/s</span>
-                            </div>
-                        `;
+                        anomalyDiv.className = 'anomaly-item ' + severityClass;
+                        const timestamp = new Date(anomaly.timestamp).toLocaleString();
+                        
+                        let severityFactorsHtml = '';
+                        if (anomaly.severity_factors && anomaly.severity_factors.length > 0) {
+                            severityFactorsHtml = '<div class="severity-factors"><strong>Severity Factors:</strong> ' + anomaly.severity_factors.join(', ') + '</div>';
+                        }
+                        
+                        anomalyDiv.innerHTML = 
+                            '<div><strong>' + timestamp + '</strong></div>' +
+                            '<div>Severity: <strong>' + severityText + '</strong> | Anomaly Score: <span class="anomaly-score">' + anomaly.anomaly_score.toFixed(3) + '</span></div>' +
+                            '<div class="anomaly-reason"><strong>Reason:</strong> ' + anomaly.reason + '</div>' +
+                            severityFactorsHtml +
+                            '<div>' +
+                            '<span style="color: #3498db;">CPU: ' + anomaly.metrics.cpu_percent.toFixed(1) + '%</span> | ' +
+                            '<span style="color: #9b59b6;">Memory: ' + anomaly.metrics.memory_percent.toFixed(1) + '%</span> | ' +
+                            '<span style="color: #2ecc71;">Disk: ' + anomaly.metrics.disk_read_mb.toFixed(2) + ' MB/s</span> | ' +
+                            '<span style="color: #e74c3c;">Network: ' + anomaly.metrics.network_sent_mb.toFixed(2) + ' MB/s</span>' +
+                            '</div>';
                         container.appendChild(anomalyDiv);
                     });
                 }
