@@ -1,0 +1,987 @@
+Assigned Group,Number,Created Date,Close Date,Case Type,Priority,Summary,Type,Month
+REFINITIV_Hosting_ServiceDesk,INC000005005285,05/03/2024 00:33,12/01/2025 20:00,User Service Restoration,4 - Low,Client unable to receive alert // [#INC-478009],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005181941,21/11/2024 21:37,30/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume C is at 4% free,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005188540,03/12/2024 22:13,27/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: SVC_OpswareAgent = 0,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005196356,15/12/2024 18:38,08/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005199789,20/12/2024 12:49,02/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: s627203fr5sl004 cmaeventd[1923]: Physical drive failed: Port 1I Box 1 Bay 1 of E,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005199858,20/12/2024 22:26,15/01/2025 20:00,User Service Restoration,3 - Medium,HDD2 failure on ESNJ2P2SLDP01A server,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005200232,22/12/2024 18:02,08/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005199710,22/12/2024 23:22,18/01/2025 20:00,User Service Restoration,3 - Medium,Request to allow SSH Access to SMTB new servers,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005200972,23/12/2024 23:09,04/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: 10.144.128.13 is not reachable,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201076,24/12/2024 12:09,02/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: s640066jp6sl114 cmaeventd[5559]: Physical drive failed: Port 1I Box 1 Bay 1 of E,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201081,24/12/2024 12:33,02/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/24/24 18:25:35 - 7,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005200853,25/12/2024 04:46,04/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: 10.144.128.12 is not reachable,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201609,26/12/2024 10:55,03/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: essg2p1slsp01b31 kernel: sfc 0000:d8:00.1 etn3: link down,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201295,26/12/2024 12:46,03/01/2025 20:00,User Service Restoration,4 - Low,Flapping Alert: HARDWARE Event:Solarflare Adapter 216:00.0 Connectivity status changed to Link Fai,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201799,28/12/2024 17:37,01/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18033383 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201800,28/12/2024 17:42,01/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18033434 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005201456,28/12/2024 18:16,08/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202743,29/12/2024 21:33,07/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202186,29/12/2024 21:56,02/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202489,30/12/2024 02:42,07/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Smart Storage Battery pre-failure (Battery 1). Action: 1. Consult,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202491,30/12/2024 03:06,02/01/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - /var alerting on eslo1p3sldmm01b // [#INC-535817],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202804,30/12/2024 03:07,02/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202199,30/12/2024 03:34,02/01/2025 20:00,User Service Restoration,2 - High,"MonitoringAlert:FanFailure(Fan6,LocationSystem)hasbeenrepaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202248,30/12/2024 23:44,03/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp04a02 cmaeventd[4919]: Physical drive failed: Port 1I Box 1 Bay 2 of Em,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202313,31/12/2024 10:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18060736 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202314,31/12/2024 10:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18060747 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202315,31/12/2024 10:32,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18060819 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202317,31/12/2024 10:42,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18060932 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202350,31/12/2024 17:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064037 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202351,31/12/2024 17:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064038 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202352,31/12/2024 17:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064044 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202353,31/12/2024 17:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064039 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202355,31/12/2024 18:17,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064437 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202356,31/12/2024 18:17,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064436 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202357,31/12/2024 18:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064483 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202358,31/12/2024 18:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064484 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202359,31/12/2024 18:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064494 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202360,31/12/2024 18:22,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064496 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202361,31/12/2024 18:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064516 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202362,31/12/2024 18:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064518 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202363,31/12/2024 18:32,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064539 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202364,31/12/2024 18:33,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064554 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202365,31/12/2024 18:33,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18064555 - P3 Medium - System Time
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005202374,31/12/2024 21:27,04/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18065986 - P3 Medium - New Rule
+Triggered Not Seen Before",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203629,01/01/2025 03:05,05/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203094,01/01/2025 03:17,05/01/2025 20:00,User Service Restoration,3 - Medium,"Monitoring Alert: Fan Failure (Fan 7, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203192,02/01/2025 02:48,05/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203472,02/01/2025 07:53,02/01/2025 08:05,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System) has been repaired,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203560,03/01/2025 00:43,09/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: HARDWARE Event:Smart Storage Battery pre-failure (Battery 1). Action: 1. Consult s,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203951,03/01/2025 02:28,06/01/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - /var alerting on server eslo1p3sldmm01b // [#INC-536337],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005203952,03/01/2025 02:37,06/01/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - /var alerting on server eslo1p3sldmm01b // [#INC-536337],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204057,03/01/2025 21:11,06/01/2025 05:58,User Service Restoration,3 - Medium,Re: HK7 - RRCP alert on emshk7slsp02b02 at Jan 03 10:30GMT //[#INC-536409],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204067,03/01/2025 23:35,10/01/2025 20:00,User Service Restoration,3 - Medium,"Monitoring Alert: Fan Failure (Fan 7, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204278,04/01/2025 05:02,09/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204288,04/01/2025 07:19,09/01/2025 20:00,User Service Restoration,3 - Medium,GATEWAYCONNECTIVITY errors for esny4p1sldp01a30 & esny4p1sldp04a30,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204301,04/01/2025 10:57,04/01/2025 10:59,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204595,04/01/2025 13:50,07/01/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - esny4c3slsp06b02 /var high usage // [#INC-536451],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204369,05/01/2025 13:26,14/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204213,05/01/2025 13:43,14/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204372,05/01/2025 14:37,05/01/2025 14:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204688,05/01/2025 16:46,08/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204379,05/01/2025 17:23,09/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 7, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204835,05/01/2025 19:32,06/01/2025 06:16,User Service Restoration,3 - Medium,Re: RRCP alert on emshk7slsp02b02 in HK7 // [#INC-536630],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204846,05/01/2025 20:30,15/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204391,05/01/2025 20:33,06/01/2025 05:48,Infrastructure Event,3 - Medium,Lumen MSS Initial Notification Alert - INC18123054 - P3 Medium - Authen,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204473,06/01/2025 08:32,09/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204974,06/01/2025 13:09,07/01/2025 07:44,User Service Restoration,3 - Medium,VPN Trial Password Reset - January,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204788,06/01/2025 14:36,06/01/2025 14:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 23,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005204802,06/01/2025 18:16,09/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205464,07/01/2025 02:05,07/01/2025 02:28,Infrastructure Event,3 - Medium,RTMDS - /var alerting on eslo1p3sldmm01b // [#INC-536795],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205240,07/01/2025 05:19,15/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205115,07/01/2025 11:06,19/01/2025 20:00,User Service Restoration,3 - Medium,Re: Wells Fargo Bank congestion issue on s610651nj2sl41 and s610651nj2sl42 // [#INC-536839],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205760,07/01/2025 19:44,12/01/2025 20:00,User Service Restoration,3 - Medium,Error detecting the RH Satellite registration method eslo1p1slsp01b31,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205761,07/01/2025 19:46,12/01/2025 20:00,User Service Restoration,3 - Medium,Insufficient Disk Space for eslo1p3sldmm01b,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205945,08/01/2025 12:22,08/01/2025 12:24,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 91%",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005205965,08/01/2025 14:19,11/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: prc_sp_ocap = 0,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207312,09/01/2025 04:13,12/01/2025 20:00,User Service Restoration,3 - Medium,RTMDS - /var alerting on esnj2p1slsp02b23 // [#INC-537163],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207394,09/01/2025 13:45,19/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 94%,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207398,09/01/2025 14:08,13/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207399,09/01/2025 14:20,12/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207644,09/01/2025 16:44,12/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207092,09/01/2025 20:47,15/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has Failed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207099,09/01/2025 21:46,17/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207122,10/01/2025 02:54,13/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207172,10/01/2025 11:19,10/01/2025 11:22,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 93%",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207765,10/01/2025 11:28,13/01/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - /var alerting on esny4c3slsp05a02 // [#INC-537400],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207882,10/01/2025 21:20,10/01/2025 21:22,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 43,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207898,10/01/2025 23:22,10/01/2025 23:24,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 31,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207899,10/01/2025 23:23,10/01/2025 23:26,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 32,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207904,10/01/2025 23:35,10/01/2025 23:36,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 22,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208461,10/01/2025 23:35,10/01/2025 23:38,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208483,11/01/2025 02:25,11/01/2025 02:27,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208485,11/01/2025 02:28,11/01/2025 03:36,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:HPE Ethernet 1Gb 4-port 331i Adapter - NIC Connectivity status chan,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005207973,11/01/2025 07:20,14/01/2025 20:00,User Service Restoration,3 - Medium,GATEWAYCONNECTIVITY issues for esnj2p1sldp01a30 & esnj2p1sldp03a30,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208000,11/01/2025 17:41,14/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18188805 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208032,11/01/2025 22:33,15/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2p1sldp03a30 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005209087,13/01/2025 12:26,17/01/2025 20:00,User Service Restoration,3 - Medium,Uptime of BBH V/A boxes in NJ2 and CH4,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005208863,13/01/2025 14:37,13/01/2025 14:38,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 22,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005209572,14/01/2025 19:05,18/01/2025 20:00,User Service Restoration,3 - Medium,ESLO4P1SLDPP11B25 ||  Error detecting the RH Satellite registration method,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005209772,15/01/2025 00:11,21/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005210561,15/01/2025 15:31,19/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 90%,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211222,16/01/2025 06:34,19/01/2025 20:00,User Service Restoration,3 - Medium,Re: NJ2 - esnj2p1slsp02b23 high usage in /Var // [#INC-538279],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211224,16/01/2025 07:04,19/01/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 2, Location System) has been repaired",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211017,16/01/2025 10:47,17/01/2025 23:53,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:trhnj2slssd113a cmaeventd[4740]: Physical drive failed: Port 1I Box,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211044,16/01/2025 13:12,19/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 01/16/25 16:58:33 - 133,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211062,16/01/2025 17:25,19/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 01/16/25 16:58:33 - 386,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211335,16/01/2025 20:35,20/01/2025 20:00,User Service Restoration,3 - Medium,High totalProcesses on trhnj2slssd113a // [#INC-538351],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211749,17/01/2025 04:31,20/01/2025 20:00,User Service Restoration,3 - Medium,/var alerting on server esny4c3slsp06b02,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211660,17/01/2025 05:06,20/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 01/16/25 16:58:33 - 1087,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211877,17/01/2025 17:06,20/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 01/17/25 22:58:35 - 7,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212401,17/01/2025 21:44,17/01/2025 21:46,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Eventlog: The event logging service encountered an error (5) whi,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211922,17/01/2025 22:06,17/01/2025 22:08,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Eventlog: The event logging service encountered an error (5) whi,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212405,17/01/2025 22:07,17/01/2025 22:10,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Eventlog: The event logging service encountered an error (5) whi,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211924,17/01/2025 22:09,17/01/2025 22:11,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 296,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005211927,17/01/2025 22:23,17/01/2025 22:26,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212237,18/01/2025 12:38,21/01/2025 20:00,User Service Restoration,3 - Medium,TRESNJ2C1SLDP01B06 - ROUTES: default via 172.29.11.5: route is missing,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212644,18/01/2025 17:42,22/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18260539 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212782,19/01/2025 18:22,19/01/2025 18:26,User Service Restoration,3 - Medium,Monitoring Alert: The driver detected a controller error on \Device\Harddisk1\DR1.,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005212605,19/01/2025 23:33,23/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 18,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005213637,21/01/2025 08:27,25/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18283657 - P3 Medium - SystemTime
+Changed",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005213690,21/01/2025 11:56,24/01/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 94%,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005213478,22/01/2025 01:51,30/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005214082,22/01/2025 14:37,22/01/2025 14:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215114,23/01/2025 12:52,27/01/2025 20:00,User Service Restoration,3 - Medium,Re: NJ2 - esnj2p1slsp02b23 high usage in /Var // [#INC-539493],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215330,24/01/2025 04:28,28/01/2025 20:00,User Service Restoration,3 - Medium,: RTMDS - /var alerting on esny4c3slsp06b02 // [#INC-539592],Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215367,24/01/2025 06:34,29/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215369,24/01/2025 06:44,31/01/2025 20:00,User Service Restoration,4 - Low,Log Alert: HARDWARE Event:Internal Storage Enclosure Device Failure (Bay 1 -  Box 1 -  Port 1I -,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215482,24/01/2025 19:37,24/01/2025 19:40,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 01/25/25 01:29:27 - 7,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215962,24/01/2025 20:50,24/01/2025 20:53,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 01/25/25 02:42:42 - 7,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215972,24/01/2025 21:49,28/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 01/25/25 03:41:36 - 7,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215717,24/01/2025 23:53,29/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005216064,25/01/2025 12:19,28/01/2025 20:00,User Service Restoration,3 - Medium,CRQ000000578071  post check alerts on serverESNY4P1SLDP01B30,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215835,25/01/2025 14:36,28/01/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: High disk usage -  volume /tmp is at 100% | NOTIFY,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215840,25/01/2025 17:27,30/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18328565 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005215841,25/01/2025 17:32,29/01/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18328566 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005216353,27/01/2025 05:54,30/01/2025 20:00,Infrastructure Event,3 - Medium,"RE: INC000005215840 // Lumen MSS Initial Notification Alert - INC18328565 - P3
+Medium - Multiple Un",Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005216734,27/01/2025 12:11,27/01/2025 12:14,User Service Restoration,3 - Medium,Monitoring Alert: prc_rsyslogd = 0,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005217073,27/01/2025 21:31,31/01/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: eslo4p3sldpp14b25 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005217408,29/01/2025 14:36,29/01/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 23,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005218289,30/01/2025 14:37,30/01/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 22,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005218826,31/01/2025 03:25,31/01/2025 03:28,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Eventlog: The event logging service encountered an error (5) whi,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005218595,31/01/2025 03:37,31/01/2025 03:40,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Eventlog: The event logging service encountered an error (5) whi,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005219202,31/01/2025 21:36,31/01/2025 21:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 57,Incident,Jan-25
+REFINITIV_Hosting_ServiceDesk,INC000005161996,22/10/2024 05:23,28/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: High disk usage -  volume /data01 is at 97% | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005213447,21/01/2025 19:59,08/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: essg2p1sldpp03a34 kernel: sfc 0000:12:00.1 etn6: link down,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005215408,24/01/2025 09:19,04/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:Smart Storage Battery has exceeded the maximum amount of devices,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005216285,26/01/2025 21:58,18/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 2 -  Location System) has been repaired,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005217108,28/01/2025 07:09,08/02/2025 20:00,Infrastructure Event,2 - High,Server s610651nj2sl41 down,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005217757,28/01/2025 14:49,08/02/2025 20:00,Infrastructure Event,3 - Medium,Monitoring Alert: Heartbeat missing since 01/28/25 12:30:43 - 498,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005217492,28/01/2025 17:56,02/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005217286,28/01/2025 20:30,01/02/2025 20:00,User Service Restoration,3 - Medium,esnj2c3slssd05b || Update latest RHN channels,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005218638,30/01/2025 04:15,01/02/2025 22:44,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp05a02 cmaeventd[4575]: Physical drive failed: Port 1I Box 1 Bay 1 of Em,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005218663,30/01/2025 06:02,05/02/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219081,31/01/2025 10:18,03/02/2025 20:00,User Service Restoration,3 - Medium,Re: RTMDS - /var alerting on esny4c3slsp06b02 and esnj2p1slsp02b23 // [#INC-540688],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219091,31/01/2025 10:54,06/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219179,31/01/2025 14:54,06/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219338,31/01/2025 20:27,06/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:s610651nj2sl43 cmaeventd[2455]: Physical drive failed: Port 1I Bo,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219586,31/01/2025 20:39,04/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/01/25 02:31:23 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219589,31/01/2025 21:07,04/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/01/25 02:31:23 - 35,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219366,01/02/2025 00:42,08/02/2025 20:00,User Service Restoration,3 - Medium,Access denied for NFD Lumen servers,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219888,01/02/2025 08:57,04/02/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18397477 - P3 Medium - Multiple
+Authentication Failures",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219425,01/02/2025 11:51,05/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/01/25 02:31:23 - 919,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219671,01/02/2025 12:47,05/02/2025 20:00,User Service Restoration,3 - Medium,Re: ADS esnj2c2slsp05a02 offline // [#INC-540812],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219956,02/02/2025 04:03,05/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: s610651nj2sl44 cmaeventd[2743]: Physical drive failed: Port 1I Box 1 Bay 2 of Embe,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219513,02/02/2025 05:53,05/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: ServerRebooted = 3786,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219970,02/02/2025 06:19,05/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: ServerRebooted = 3008,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219791,02/02/2025 20:42,10/02/2025 20:00,User Service Restoration,3 - Medium,EMSLO4SLSED001A Bouncing,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005219821,03/02/2025 02:27,11/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220434,03/02/2025 04:06,06/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: High disk usage -  volume /data01 is at 98% | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220440,03/02/2025 04:22,03/02/2025 04:26,User Service Restoration,3 - Medium,Monitoring Alert: prc_rsyslogd = 0,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220547,03/02/2025 13:30,06/02/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 3, Location System) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220718,04/02/2025 06:50,09/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 90%,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220872,04/02/2025 12:30,08/02/2025 20:00,User Service Restoration,3 - Medium,Re: ETrade US8799 observed stale data // [#INC-541309],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220886,04/02/2025 14:37,04/02/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 26,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005220956,05/02/2025 01:36,08/02/2025 20:00,User Service Restoration,3 - Medium,Re: Black Screen after remote logging into emsty6swsad001a // [#INC-541401],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005221818,06/02/2025 07:57,09/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/06/25 13:49:47 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005221820,06/02/2025 07:59,12/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: 1611-Fan 6 Warning,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222053,06/02/2025 08:12,09/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/06/25 14:05:11 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005221832,06/02/2025 08:17,12/02/2025 20:00,User Service Restoration,3 - Medium,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005221833,06/02/2025 08:18,06/02/2025 08:20,User Service Restoration,3 - Medium,Monitoring Alert: CommandCount:siasnmpd = 0,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005221836,06/02/2025 08:28,12/02/2025 20:00,User Service Restoration,3 - Medium,Flapping Alert: Heartbeat missing since 02/06/25 14:20:26 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222439,07/02/2025 04:00,07/02/2025 04:04,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume D is at 3% free | NOTIFY",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222845,07/02/2025 04:53,10/02/2025 20:00,User Service Restoration,2 - High,/var Alerting on Multiple Servers,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222483,07/02/2025 12:48,24/02/2025 20:05,User Service Restoration,2 - High,Monitoring Alert: eslo1p1sldpp04b26 kernel: sfc 0000:d8:00.0 etn2: link down,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222943,07/02/2025 19:55,11/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: esch4c2slsp01b02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222776,07/02/2025 20:22,11/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: ServerRebooted = 9197,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222779,07/02/2025 20:29,11/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222948,07/02/2025 20:41,08/02/2025 00:45,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223151,07/02/2025 20:45,11/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esch4c2slsp04b02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/monitor : Process i,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222791,08/02/2025 00:08,08/02/2025 00:09,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223175,08/02/2025 01:12,08/02/2025 01:16,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 34,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223176,08/02/2025 01:33,08/02/2025 01:35,User Service Restoration,4 - Low,"Monitoring Alert: Link Down:ge-0/0/9, Administratively  ( ge-0/0/9 )",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005222798,08/02/2025 01:41,08/02/2025 01:44,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 49,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223019,08/02/2025 08:13,08/02/2025 18:17,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 1) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223219,08/02/2025 10:24,11/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: ServerRebooted = 8825,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223220,08/02/2025 10:25,11/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esch4c2slsp02a02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223447,08/02/2025 10:25,11/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: esch4c2slsp01a02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Kille,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223222,08/02/2025 10:29,11/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esch4c2slsp03a02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223032,08/02/2025 10:31,11/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esch4c2slsp04a02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223037,08/02/2025 11:57,08/02/2025 11:59,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223039,08/02/2025 12:56,08/02/2025 13:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223461,08/02/2025 17:53,08/02/2025 20:07,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18497583 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223496,09/02/2025 00:09,12/02/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223332,10/02/2025 00:09,13/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223386,10/02/2025 08:08,16/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223412,10/02/2025 11:33,10/02/2025 11:35,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 95%",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005224354,11/02/2025 01:29,18/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005223983,11/02/2025 02:55,16/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005224968,12/02/2025 15:50,12/02/2025 15:52,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005224970,12/02/2025 15:50,15/02/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: SVC_W3SVC = 0,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225329,13/02/2025 00:13,18/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225400,13/02/2025 06:55,13/02/2025 06:57,User Service Restoration,3 - Medium,Monitoring Alert: Host: s618026sg2vh05.na.msmps.net - HostCPUUsageAlarm - Metric CPU Usage is equal,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225600,13/02/2025 11:22,19/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225683,13/02/2025 18:34,17/02/2025 20:00,User Service Restoration,3 - Medium,Time Difference alerts across HK8 ADHs // [#INC-542882],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225859,13/02/2025 23:26,13/02/2025 23:32,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:25:40 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225733,13/02/2025 23:26,13/02/2025 23:32,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:25:34 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225860,13/02/2025 23:26,13/02/2025 23:28,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:25:35 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225735,13/02/2025 23:26,13/02/2025 23:28,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:29 - 357,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225861,13/02/2025 23:26,13/02/2025 23:33,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:26 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225736,13/02/2025 23:26,13/02/2025 23:33,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:26 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225862,13/02/2025 23:27,17/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:22 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225865,13/02/2025 23:33,13/02/2025 23:39,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:29 - 357,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225741,13/02/2025 23:33,20/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225743,13/02/2025 23:33,13/02/2025 23:36,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:25:38 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225745,13/02/2025 23:33,13/02/2025 23:36,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:27 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225746,13/02/2025 23:35,17/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/13/25 23:26:23 - 358,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225952,14/02/2025 04:03,17/02/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225958,14/02/2025 04:19,17/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:tresnj2c1slssd03b cmaeventd[4398]: Physical drive failed: Port 1I,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225972,14/02/2025 06:17,19/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/14/25 12:09:14 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005225992,14/02/2025 07:01,19/02/2025 20:00,User Service Restoration,2 - High,NJ2 TRKD - tresnj2c1slssd03b unreachable // [#INC-542999],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226225,14/02/2025 07:27,14/02/2025 07:29,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226826,15/02/2025 11:56,15/02/2025 12:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226861,15/02/2025 17:32,22/02/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18594460 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226860,15/02/2025 17:32,23/02/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18594467 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226895,15/02/2025 22:39,20/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: emslo1sldp04b07 cmaeventd[5219]: Physical drive failed: Port 1I Box 1 Bay 1 of E,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226706,16/02/2025 02:28,19/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/14/25 12:09:14 - 2657,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226721,16/02/2025 04:04,20/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005226980,16/02/2025 11:47,22/02/2025 20:00,User Service Restoration,4 - Low,/INC000005225600/Hard drives need to refill back to spare server TRHNJ2REFRESHSPARE,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005227788,17/02/2025 15:16,22/02/2025 15:08,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005227608,17/02/2025 19:25,21/02/2025 20:00,User Service Restoration,3 - Medium,RRCP_REBOOT alert on emsty6slssd004a in TY6 // [#INC-543568],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005227825,17/02/2025 21:32,24/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228171,18/02/2025 02:06,22/02/2025 20:00,Infrastructure Event,3 - Medium,"RE: INC000005226861 // Lumen MSS Initial Notification Alert - INC18594460 - P3
+Medium - Multiple Un",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228173,18/02/2025 02:08,21/02/2025 20:00,Infrastructure Event,3 - Medium,"RE: INC000005226860 // Lumen MSS Initial Notification Alert - INC18594467 - P3
+Medium - Multiple Un",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228579,18/02/2025 09:22,18/02/2025 09:25,User Service Restoration,3 - Medium,Monitoring Alert: DU_inodes:/var = 90,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228347,18/02/2025 14:37,18/02/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228627,18/02/2025 17:26,21/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228372,18/02/2025 17:36,25/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert:HARDWAREEvent:SystemFansNotRedundant(LocationSystem)hasbeenrepaired,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005228670,18/02/2025 21:38,22/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229143,19/02/2025 11:07,25/02/2025 00:43,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume D is at 3% free | NOTIFY",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229186,19/02/2025 14:21,22/02/2025 20:00,Infrastructure Event,3 - Medium,"RE: INC000005226861 // Lumen MSS Initial Notification Alert - INC18594460 - P3
+Medium - Multiple Un",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229475,19/02/2025 17:51,22/02/2025 05:33,User Service Restoration,2 - High,NJ2 - esnj2c2slsp06a02 - read-only error in /data file system // [#INC-543935],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229357,20/02/2025 08:08,23/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Solarflare Adapter 216:00.0 Connectivity status changed to Link Fai,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229358,20/02/2025 08:08,21/02/2025 18:33,User Service Restoration,2 - High,Monitoring Alert: esny4c3slsp02b02 kernel: sfc 0000:d8:00.1 etn3: link down,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229378,20/02/2025 11:24,23/02/2025 20:00,Infrastructure Event,3 - Medium,"RE: INC000005226860 // Lumen MSS Initial Notification Alert - INC18594467 - P3
+Medium - Multiple Un",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229607,20/02/2025 12:39,25/02/2025 20:00,User Service Restoration,3 - Medium,LO1: eslo1p1sldpp04b26 - etn4 Bonding alert // [#INC-544108],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005229639,20/02/2025 15:19,23/02/2025 20:00,User Service Restoration,3 - Medium,RTMDS - High /var usage on esny4c3slsp06b02 // [#INC-544119],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230394,21/02/2025 10:05,24/02/2025 20:00,User Service Restoration,3 - Medium,RTMDS - High /var usage on esny4c3slsp06b02 // [#INC-544287],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230711,21/02/2025 14:36,21/02/2025 14:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 22,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230237,21/02/2025 19:58,25/02/2025 20:00,User Service Restoration,3 - Medium,Re: LO1 - DB STG - eslo1p1sldpp04b26 Bonding alert // [#INC-544336],Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230492,21/02/2025 23:15,25/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp06b02 cmaeventd[5190]: Physical drive failed: Port 1I Box 1 Bay 2 of Em,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230296,22/02/2025 02:06,26/02/2025 20:00,User Service Restoration,4 - Low,hEDD flap in NJ2 affecting few clients,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230846,22/02/2025 11:57,22/02/2025 11:59,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230855,22/02/2025 12:56,22/02/2025 12:59,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005230992,22/02/2025 14:37,22/02/2025 14:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 23,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005231004,22/02/2025 17:42,26/02/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18683491 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005231299,23/02/2025 08:14,23/02/2025 08:23,User Service Restoration,3 - Medium,"Monitoring Alert: HPE Agentless Management Service: Description of IML Event ID 21, Class Code 19, E",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005231651,23/02/2025 21:14,25/02/2025 00:34,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005231850,24/02/2025 00:34,25/02/2025 01:05,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/23/25 15:14:26 - 918,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005231467,24/02/2025 14:36,24/02/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232443,25/02/2025 02:03,28/02/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 02/25/25 07:55:13 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232476,25/02/2025 07:00,25/02/2025 07:03,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 96%",Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232112,25/02/2025 11:00,25/02/2025 11:02,User Service Restoration,3 - Medium,Monitoring Alert: prc_HBMonNot = 0 | NOTIFY,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232114,25/02/2025 11:02,28/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: The HBMon_Catcher Process is not running,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232115,25/02/2025 11:02,28/02/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: The HBMon_Watcher Process is not running,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005232579,25/02/2025 18:41,25/02/2025 18:51,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/26/25 00:32:24 - 7,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005233716,26/02/2025 21:31,27/02/2025 20:20,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/27/25 01:16:40 - 134,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005233722,26/02/2025 22:38,27/02/2025 01:04,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:25:37 - 118211,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005233724,26/02/2025 22:53,27/02/2025 01:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:40:30 - 118211,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005234152,27/02/2025 21:59,27/02/2025 22:04,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 27172,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005234645,28/02/2025 01:50,28/02/2025 02:01,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0 -  Port 4) has been repaired,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005235281,28/02/2025 14:36,28/02/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 22,Incident,Feb-25
+REFINITIV_Hosting_ServiceDesk,INC000005192636,10/12/2024 04:45,13/03/2025 21:00,User Service Restoration,3 - Medium,RM: Capsule server connectivity issue on trhch5slssd001a // CRQ000000573607,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005223992,11/02/2025 03:44,04/03/2025 20:00,User Service Restoration,3 - Medium,NJ2 - HSBC DACS - high memory usage on s605717nj2sl02 // [#INC-542370]14375301,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005224204,11/02/2025 12:01,16/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: High disk usage -  volume D is at 3% free | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005230210,21/02/2025 17:48,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005230914,22/02/2025 21:23,03/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7 -  Location System) has been repaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231044,22/02/2025 22:11,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp06a02 cmaeventd[5562]: Physical drive failed: Port 1I Box 1 Bay 1 of,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231226,22/02/2025 22:29,03/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 02/23/25 04:21:36 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231254,23/02/2025 00:35,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/23/25 06:27:19 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231118,23/02/2025 03:51,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/23/25 04:58:41 - 287,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231120,23/02/2025 04:01,01/03/2025 02:25,User Service Restoration,2 - High,Monitoring Alert: esnj2p1sldpp04a25 cmaeventd[5367]: Physical drive failed: Port 1I Box 1 Bay 2 of E,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231136,23/02/2025 08:14,05/03/2025 20:00,User Service Restoration,2 - High,"2 HDD’s ,Fan5 and FAN7 has got failed",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231300,23/02/2025 08:26,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slssd04b cmaeventd[5518]: Physical drive failed: Port 1I Box 1 Bay 2 of Emb,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231323,23/02/2025 12:59,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/23/25 10:40:52 - 498,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231164,23/02/2025 13:20,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 02/23/25 14:31:02 - 287,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231335,23/02/2025 17:45,04/03/2025 20:00,User Service Restoration,3 - Medium,Re: SG2: OCBC - s619169sg2sw06 - Uptime alert // [#INC-544644],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005231718,24/02/2025 06:00,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert:HARDWAREEvent:FanFailure(Fan5 - LocationSystem)hasbeenrepaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232459,25/02/2025 04:39,10/03/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232190,25/02/2025 05:32,02/03/2025 05:34,User Service Restoration,2 - High,..MonitoringAlert:Heartbeatmissingsince02/23/2515:14:26-2657,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232471,25/02/2025 06:02,01/03/2025 22:51,User Service Restoration,3 - Medium,Re: Etrade v1 server s620714nj2sl03 unreachable alert // [#INC-544918],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232077,25/02/2025 06:37,06/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 93%,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232199,25/02/2025 08:34,01/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: esnj2c2slsp06a02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232495,25/02/2025 08:35,09/03/2025 14:37,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232211,25/02/2025 09:45,05/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Fan Failure (Fan 1 -  Location System) has been repaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232223,25/02/2025 11:46,06/03/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232772,25/02/2025 17:42,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:06 - 116774,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232781,25/02/2025 18:34,02/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: s610199dksl007 kernel: igb 0000:04:00.3: eth5: igb: eth5 NIC Link is Down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232567,25/02/2025 18:34,02/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: s610199dksl005 kernel: igb 0000:04:00.3: eth5: igb: eth5 NIC Link is Down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232575,25/02/2025 18:39,01/03/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 4) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232356,25/02/2025 19:49,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: eslo1p1sldpp04b26 kernel: sfc 0000:d8:00.0 etn2: link down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232385,25/02/2025 21:08,02/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: s610199dksl006 kernel: igb 0000:04:00.3: eth5: igb: eth5 NIC Link is Down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232658,25/02/2025 21:08,02/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: s610199dksl008 kernel: igb 0000:04:00.3: eth5: igb: eth5 NIC Link is Down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232386,25/02/2025 21:12,01/03/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 4) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232662,25/02/2025 21:31,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:18:33 - 116771,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232392,25/02/2025 21:32,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:20:57 - 116770,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232832,25/02/2025 22:38,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:25:37 - 116771,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232675,25/02/2025 22:55,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:44:35 - 116770,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232840,25/02/2025 23:49,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:33:55 - 116774,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005232709,26/02/2025 01:06,05/03/2025 20:00,User Service Restoration,3 - Medium,RM: Unable to access two servers \\ CRQ000000581104,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233038,26/02/2025 02:46,01/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 06:34:29 - 116770,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233436,26/02/2025 17:33,04/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: esnj2c2slsp08a02 cmaeventd[4703]: Physical drive failed: Port 1I Box 1 Bay 1 of,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233188,26/02/2025 17:43,02/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:44 - 118214,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233189,26/02/2025 17:43,02/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:44 - 118214,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233437,26/02/2025 17:43,02/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:09 - 118215,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233207,26/02/2025 19:02,02/03/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 4) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233457,26/02/2025 20:41,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:27:29 - 118213,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233705,26/02/2025 20:41,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:57 - 118215,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233242,26/02/2025 21:31,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:18:33 - 118211,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233717,26/02/2025 21:33,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:20:57 - 118211,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233466,26/02/2025 22:47,02/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:36 - 118211,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233870,27/02/2025 03:54,02/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 12532,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233927,27/02/2025 03:54,02/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: 1611-Fan 5 Warning,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233873,27/02/2025 03:55,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1 -  Port 2) has been repaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233929,27/02/2025 03:55,03/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005233876,27/02/2025 03:57,02/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: Fan Solution Not Fully Redundant,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234333,27/02/2025 11:31,02/03/2025 20:01,User Service Restoration,3 - Medium,High /var usage on esny4c3slsp06b02 // [#INC-545584,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234146,27/02/2025 21:23,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:11:36 - 119651,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234430,27/02/2025 22:04,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: 307-Fan Failure Detected - Fan 5 Failed. Action: Replac,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234156,27/02/2025 22:29,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:17:38 - 119650,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234158,27/02/2025 22:42,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 13673,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234159,27/02/2025 22:46,03/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2c2slssd04b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234438,27/02/2025 22:57,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:44:35 - 119651,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234594,27/02/2025 23:19,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 119653,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234463,27/02/2025 23:50,03/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:33:55 - 119655,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234887,28/02/2025 04:49,07/03/2025 20:01,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume D is at 5% free,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234681,28/02/2025 05:22,03/03/2025 20:01,User Service Restoration,3 - Medium,RTMDS - /var high usage NY4 // [#INC-545739],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235009,28/02/2025 17:11,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: s605717nj2sl02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed |,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235295,28/02/2025 17:11,03/03/2025 20:01,User Service Restoration,3 - Medium,Monitoring Alert: trhnj2sldp101b11 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235296,28/02/2025 17:11,03/03/2025 20:01,User Service Restoration,3 - Medium,Monitoring Alert: tresnj2c1slssd01b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Proces,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235297,28/02/2025 17:12,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: esnj2p1sldp05b20 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234776,28/02/2025 17:12,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: s637102nj2sl002 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234777,28/02/2025 17:13,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: esnj2c2slsp06b02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235010,28/02/2025 17:13,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: trhnj2sldp101b31 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234778,28/02/2025 17:13,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: esnj2c2slsp08b02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235298,28/02/2025 17:13,03/03/2025 20:01,User Service Restoration,4 - Low,Monitoring Alert: trhnj2slsmm101b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed |,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235012,28/02/2025 17:18,03/03/2025 20:01,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235300,28/02/2025 17:22,03/03/2025 20:01,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235302,28/02/2025 17:36,08/03/2025 09:59,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Smart Storage Battery has exceeded the maximum amount of devices su,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234781,28/02/2025 17:41,06/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 12/06/24 21:25:20 - 121094,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234812,28/02/2025 21:23,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:11:36 - 121091,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235066,28/02/2025 21:28,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:15:39 - 121092,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234815,28/02/2025 21:31,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:18:33 - 121092,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235353,28/02/2025 22:27,04/03/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18769454 - P3 Medium - System Time
+Changed",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005234824,28/02/2025 22:38,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:25:37 - 121092,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235425,28/02/2025 22:47,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:24 - 121091,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235355,28/02/2025 22:56,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:44:35 - 121091,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235356,28/02/2025 23:16,05/03/2025 20:00,User Service Restoration,3 - Medium,"CRQ000000581378 -Packet drop alert on emstk7slssd001a
+emstk7slssd005a",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235078,28/02/2025 23:18,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 121094,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235429,28/02/2025 23:51,04/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:33:55 - 121096,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235455,01/03/2025 08:24,04/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 03/01/25 14:16:12 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235123,01/03/2025 10:27,18/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: s626207nj2sl03 cmaeventd[3351]: Physical drive failed: Port 1I Box 1 Bay 14 of Emb,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235730,01/03/2025 11:57,02/03/2025 11:20,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235735,01/03/2025 12:56,01/03/2025 12:59,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235418,01/03/2025 13:16,06/03/2025 20:00,User Service Restoration,3 - Medium,Monitoring Alert: eslo1p1sldpp04b26 kernel: sfc 0000:d8:00.0 etn2: link down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236030,01/03/2025 17:36,01/03/2025 22:35,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18779395 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235760,01/03/2025 17:42,06/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:06 - 122534,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235761,01/03/2025 17:44,06/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:44 - 122535,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236031,01/03/2025 17:44,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:28:01 - 122535,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235484,01/03/2025 17:46,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:09 - 122536,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236032,01/03/2025 17:48,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:44 - 122535,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235486,01/03/2025 17:56,01/03/2025 20:33,User Service Restoration,3 - Medium,esny4c3slsp05b02 /var 86% // [#INC-546057],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235778,01/03/2025 20:17,09/03/2025 14:44,User Service Restoration,3 - Medium,Monitoring Alert: prc_nailsd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235502,01/03/2025 20:42,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:57 - 122535,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236047,01/03/2025 21:31,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:17:21 - 122532,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236048,01/03/2025 21:34,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:20:57 - 122532,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235787,01/03/2025 22:25,05/03/2025 20:00,User Service Restoration,3 - Medium,RM: V3 servers are unable to connect to dacs station server under emslo1sldp01a09 // CRQ000000580884,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236056,01/03/2025 22:39,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:25:37 - 122532,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235789,01/03/2025 22:45,13/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236057,01/03/2025 22:47,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:24 - 122532,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235507,01/03/2025 23:19,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 122534,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235796,01/03/2025 23:51,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:33:55 - 122536,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235820,02/03/2025 06:12,05/03/2025 20:00,User Service Restoration,3 - Medium,RTMDS - emslo4slssd017a eth6 bonding alert // [#INC-546174],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235867,02/03/2025 14:59,09/03/2025 13:25,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235882,02/03/2025 19:03,05/03/2025 20:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235568,02/03/2025 20:41,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:23 - 123975,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235569,02/03/2025 20:45,06/03/2025 20:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:27:29 - 123974,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236174,03/03/2025 05:29,03/03/2025 05:52,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/03/25 01:03:03 - 625,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236221,03/03/2025 11:52,06/03/2025 20:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18806506 - P3 Medium - Traffic from an
+Unknown Mail Server",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236331,03/03/2025 15:01,12/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005235698,03/03/2025 17:43,03/03/2025 18:23,User Service Restoration,2 - High,Re: Request to change password on s620744ch4sw10/11 // [#SR-545788],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236269,03/03/2025 17:45,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:28:01 - 125416,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236397,03/03/2025 20:42,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:27 - 125415,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236406,03/03/2025 21:24,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:11:36 - 125412,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236412,03/03/2025 22:39,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:25:37 - 125413,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236638,03/03/2025 22:48,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:36 - 125412,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236639,03/03/2025 22:54,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:40:30 - 125413,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236640,03/03/2025 22:57,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:44:35 - 125411,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236641,03/03/2025 23:00,07/03/2025 20:01,User Service Restoration,2 - High,-Monitoring Alert: Heartbeat missing since 03/03/25 01:03:03 - 1676,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236414,03/03/2025 23:19,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 125414,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236313,04/03/2025 00:13,08/03/2025 13:12,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236432,04/03/2025 02:44,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/03/25 01:03:03 - 1900,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236664,04/03/2025 02:49,07/03/2025 20:01,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 06:34:29 - 125413,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237009,04/03/2025 07:32,06/03/2025 15:55,User Service Restoration,2 - High,Monitoring Alert: essg2p1sldpp03a34 kernel: sfc 0000:12:00.1 etn6: link down,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237013,04/03/2025 08:06,18/03/2025 21:00,User Service Restoration,3 - Medium,Re: tresnj2c1sldp01b07 netprobe unreachable // [#INC-546559],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236527,04/03/2025 10:55,09/03/2025 14:15,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/03/25 01:03:03 - 2391,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236747,04/03/2025 13:48,05/03/2025 10:59,User Service Restoration,3 - Medium,VPN Trial Password Reset - March,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236557,04/03/2025 14:37,04/03/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237061,04/03/2025 17:43,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:06 - 126855,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236584,04/03/2025 17:44,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:09 - 126856,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237062,04/03/2025 17:44,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:27:44 - 126856,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236797,04/03/2025 20:17,13/03/2025 21:00,User Service Restoration,2 - High,2 HDDs and Fan#4 failure,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236600,04/03/2025 20:42,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:27 - 126855,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237088,04/03/2025 20:49,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 00:34:32 - 126854,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237094,04/03/2025 21:31,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 01:17:21 - 126853,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237095,04/03/2025 21:33,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 01:18:33 - 126853,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236604,04/03/2025 21:33,30/03/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume D is at 10% free,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236608,04/03/2025 22:31,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 02:17:38 - 126851,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236614,04/03/2025 22:47,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:24 - 126852,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005236622,04/03/2025 23:19,08/03/2025 20:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 126854,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237299,05/03/2025 10:30,05/03/2025 11:19,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237551,05/03/2025 11:58,10/03/2025 10:40,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237350,05/03/2025 14:36,05/03/2025 14:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237392,05/03/2025 19:48,09/03/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: Fan Failure (Fan 4, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237393,05/03/2025 19:49,13/03/2025 21:00,User Service Restoration,3 - Medium,Rack Location of these 2 devices s619169sg2sw07 / s619169sg2sw08,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237974,05/03/2025 21:25,09/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:11:36 - 128292,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237478,05/03/2025 21:39,09/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 01:23:15 - 128294,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237991,05/03/2025 22:31,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 02:17:38 - 128292,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237486,05/03/2025 22:48,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:36 - 128293,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237697,05/03/2025 22:55,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 02:40:30 - 128293,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237994,05/03/2025 22:57,09/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:44:35 - 128292,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237699,05/03/2025 23:20,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 03:03:59 - 128295,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237997,05/03/2025 23:27,09/03/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18835512 - P3 Medium - Multiple Unique
+Clues for theSame",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237707,05/03/2025 23:45,14/03/2025 21:00,User Service Restoration,3 - Medium,SG2 S618026 Not able to access VM,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238001,05/03/2025 23:52,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 03:33:55 - 128297,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237708,05/03/2025 23:53,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 03:35:49 - 128297,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237709,06/03/2025 00:08,06/03/2025 00:12,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 38,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005237736,06/03/2025 02:40,09/03/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 91%,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238236,06/03/2025 17:45,10/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/06/24 21:28:01 - 129736,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238264,06/03/2025 19:57,09/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 03/07/25 01:49:06 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238271,06/03/2025 20:43,10/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 00:27:29 - 129735,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238488,06/03/2025 20:43,10/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:57 - 129736,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238278,06/03/2025 21:38,10/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 12/07/24 01:24:46 - 129732,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238508,07/03/2025 00:15,07/03/2025 00:17,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 37,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238550,07/03/2025 07:28,13/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238310,07/03/2025 08:35,10/03/2025 21:00,User Service Restoration,2 - High,RTMDS - DB interface alert // [#INC-547313],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238577,07/03/2025 10:09,07/03/2025 10:12,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 33,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238642,07/03/2025 17:46,07/03/2025 18:26,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/06/24 21:28:01 - 131177,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238348,07/03/2025 17:58,07/03/2025 18:46,User Service Restoration,3 - Medium,Re: /var at 88% on esny4c3slsp06b02 // [#INC-547390],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238365,07/03/2025 20:18,11/03/2025 21:00,User Service Restoration,3 - Medium,LO1: eslo1p1sldp03b20/eslo1p1sldp01b20 bonding alert and uptime 0 days // [#INC-547407],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238928,07/03/2025 20:52,10/03/2025 19:49,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18857963 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238375,07/03/2025 22:49,11/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:22 - 131174,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005238967,08/03/2025 02:50,11/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 06:34:29 - 131175,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239332,08/03/2025 11:56,09/03/2025 14:51,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239019,08/03/2025 12:56,08/03/2025 12:57,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239057,08/03/2025 13:42,08/03/2025 14:05,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/08/25 19:34:43 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239342,08/03/2025 14:05,11/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 7560,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239351,08/03/2025 17:06,13/03/2025 21:00,User Service Restoration,3 - Medium,Re: NJ2 - BBH - s620728nj2sl09 ATS process alert and Memory Utilization // [#INC-547505],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239352,08/03/2025 17:31,09/03/2025 15:03,User Service Restoration,2 - High,post check error on S620406SHSL004 after reboot,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239380,08/03/2025 22:30,19/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239477,09/03/2025 11:12,15/03/2025 21:00,User Service Restoration,3 - Medium,ECR: Lumen SIPT Routes - DB US,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239478,09/03/2025 13:15,12/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2sltts02a SIA_HC_ERROR: Process: /usr/local/monitor/bin/monitor : Process is n,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239480,09/03/2025 14:20,13/03/2025 21:00,User Service Restoration,3 - Medium,SG2 S618026 VM Clock not insync,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239134,09/03/2025 14:33,10/03/2025 19:23,User Service Restoration,4 - Low,INC000005232495//Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239717,09/03/2025 15:07,12/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239495,09/03/2025 21:43,13/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 00:25:23 - 134056,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239736,09/03/2025 23:45,19/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239156,09/03/2025 23:50,13/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 02:34:22 - 134054,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239509,10/03/2025 02:46,13/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239170,10/03/2025 03:51,13/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 12/07/24 06:34:29 - 134056,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239525,10/03/2025 05:17,19/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: esnj2sltts01b cmaeventd[4608]: Physical drive failed: Port 1I Box 1 Bay 2 of Embed,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239803,10/03/2025 10:43,12/03/2025 09:44,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239242,10/03/2025 13:14,10/03/2025 13:31,User Service Restoration,2 - High,Monitoring Alert: HP_Disk_Failures = 1,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239851,10/03/2025 13:17,13/03/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18885031 - P3 Medium - Multiple
+Authentication Failures b",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239291,10/03/2025 21:30,11/03/2025 04:08,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume /data01 is at 97% | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005239292,10/03/2025 21:46,15/03/2025 12:38,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:Smart Storage Battery pre-failure (Battery 1). Action: 1. Consult s,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005240332,11/03/2025 10:19,13/03/2025 18:06,User Service Restoration,2 - High,Flapping Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005240393,11/03/2025 20:03,11/03/2025 21:45,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241474,12/03/2025 21:52,25/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System)",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005240906,13/03/2025 01:01,13/03/2025 21:23,User Service Restoration,3 - Medium,NFD server S644229NY4SL01 access is denied,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241500,13/03/2025 03:42,18/03/2025 05:17,User Service Restoration,2 - High,Flapping Alert: MemoryCommitLimitPct = 99,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005240969,13/03/2025 05:16,17/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 6, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241289,13/03/2025 19:08,17/03/2025 13:02,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241647,14/03/2025 04:25,17/03/2025 21:00,User Service Restoration,2 - High,High /var Usage,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241832,14/03/2025 21:38,18/03/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18939526 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241843,15/03/2025 00:32,15/03/2025 00:39,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/15/25 05:24:09 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241846,15/03/2025 00:45,18/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/15/25 05:38:36 - 7,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242365,15/03/2025 07:37,15/03/2025 07:39,User Service Restoration,2 - High,Monitoring Alert: System Power Supplies Not Redundant,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242064,15/03/2025 07:39,15/03/2025 07:41,User Service Restoration,2 - High,Monitoring Alert: System Power Supply Inserted (Power Supply 2),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242391,15/03/2025 11:44,16/03/2025 10:56,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242085,15/03/2025 12:56,18/03/2025 21:00,User Service Restoration,3 - Medium,Flapping Alert: prc_java = 2 | NOTIFY,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241909,15/03/2025 18:37,17/03/2025 12:57,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18944460 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242122,15/03/2025 21:20,22/03/2025 11:57,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6, Location System) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242157,16/03/2025 03:18,26/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242457,16/03/2025 08:12,20/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 3, Port 2) has been repaired",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241979,16/03/2025 08:56,19/03/2025 21:00,User Service Restoration,2 - High,.....MonitoringAlert:ServerRebooted=10351,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241980,16/03/2025 08:57,19/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: 310-IMPORTANT: Fan Solution Not Redundant. The system d,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241984,16/03/2025 09:23,19/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 7721,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242464,16/03/2025 09:26,19/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2sltts01b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process Si,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005241992,16/03/2025 10:02,25/03/2025 15:18,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242182,16/03/2025 10:51,19/03/2025 17:27,User Service Restoration,4 - Low,INC000005242391//FAN#4 failure,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242652,16/03/2025 20:36,26/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242579,17/03/2025 14:25,20/03/2025 21:01,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242580,17/03/2025 14:39,22/03/2025 21:00,User Service Restoration,3 - Medium,NJ2 esnj2p1slsp01a23 netprobe Unreachable,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242965,17/03/2025 14:50,25/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242792,17/03/2025 17:37,26/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: eshk8p1sldp06a21 cmaeventd[31315]: Physical drive failed: Port 1I Box 1 Bay 2 of E,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005242615,17/03/2025 18:28,17/03/2025 18:45,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/17/25 18:39:06 - 288,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005243153,18/03/2025 22:13,18/03/2025 22:21,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005243154,18/03/2025 22:17,22/03/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2p1slsp01a23 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005243726,18/03/2025 22:38,22/03/2025 21:00,User Service Restoration,3 - Medium,trhmb1rslsp04a02  At least 177MB more space needed on the /var filesystem required to patch,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005243516,19/03/2025 11:48,25/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244184,19/03/2025 15:44,20/03/2025 14:08,Infrastructure Event,3 - Medium,"RE: Lumen MSS Initial Notification Alert - INC18944460 - P3 Medium - Multiple
+Unique Clues for the",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244185,19/03/2025 15:52,20/03/2025 14:59,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC18990448 - P3 Medium - Multiple
+Authentication Failures",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244193,19/03/2025 18:06,20/03/2025 15:04,Infrastructure Event,3 - Medium,"RE: Lumen MSS Initial Notification Alert - INC18990448 - P3 Medium - Multiple
+AuthenticationFailur",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005243977,20/03/2025 04:34,24/03/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume D is at 0% free | NOTIFY",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244350,20/03/2025 12:05,21/03/2025 06:03,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244108,21/03/2025 07:42,26/03/2025 03:19,User Service Restoration,3 - Medium,rfijo root access,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244711,21/03/2025 09:46,27/03/2025 20:07,User Service Restoration,3 - Medium,BB - s620744ch4sw11 - High uptime // [#INC-549969],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244852,21/03/2025 16:31,21/03/2025 16:36,User Service Restoration,3 - Medium,Monitoring Alert: SVC_W3SVC = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005244880,21/03/2025 22:14,28/03/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System) has been repaired,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005245392,21/03/2025 23:31,21/03/2025 23:33,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 42,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005245021,22/03/2025 17:51,30/03/2025 23:39,User Service Restoration,2 - High,RE: V2 CH4 BBH - server uptime alert on  s620744ch4sw10 // [#INC-550122],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005245739,23/03/2025 16:07,30/03/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19040119 - P3 Medium - Traffic from an
+Unknown Mail Server",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005246648,25/03/2025 06:23,25/03/2025 12:17,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005246708,25/03/2025 15:46,30/03/2025 21:00,User Service Restoration,3 - Medium,CH4: trhch4slsmm101b - server unreachable // [#INC-550611],Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005247225,26/03/2025 06:16,30/03/2025 11:11,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005247249,26/03/2025 10:16,26/03/2025 19:23,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005247492,26/03/2025 19:28,26/03/2025 19:48,User Service Restoration,2 - High,"Monitoring Alert:Highdiskusage,volume/varisat100%|NOTIFY",Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248333,27/03/2025 13:25,28/03/2025 13:09,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248349,27/03/2025 15:37,27/03/2025 15:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 25,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005247709,27/03/2025 21:19,28/03/2025 13:12,User Service Restoration,2 - High,Flapping Alert: MemoryCommitLimitPct = 98,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248762,28/03/2025 23:21,28/03/2025 23:30,User Service Restoration,2 - High,Monitoring Alert: Threshold triggered -- LSEGRTMDS-NY4-FG-02's IP of device's Availability: 0.00 Per,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248236,29/03/2025 01:02,30/03/2025 23:32,User Service Restoration,2 - High,IDN_RDF service down on s620728nj2sl04 in NJ2,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248800,29/03/2025 04:28,29/03/2025 04:31,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248545,29/03/2025 04:28,29/03/2025 04:31,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248546,29/03/2025 04:39,29/03/2025 04:41,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005248887,30/03/2025 01:16,30/03/2025 01:18,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005249330,31/03/2025 05:54,31/03/2025 05:59,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,Mar-25
+REFINITIV_Hosting_ServiceDesk,INC000005221344,04/02/2025 10:54,13/04/2025 21:00,User Service Restoration,4 - Low,RE: P2 SLM Refinitiv - Customer Stopped Logging,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005235762,01/03/2025 17:44,09/04/2025 21:00,User Service Restoration,3 - Medium,eslo1p1sldpp04b26 bond1 alert - etn4 active // [#INC-546055],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005237237,05/03/2025 01:29,09/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: eslo1p1sldpp04b26 kernel: sfc 0000:d8:00.0 etn2: link down,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005245114,21/03/2025 23:04,01/04/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7, Location System) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005246461,25/03/2025 04:30,04/04/2025 08:17,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005246751,25/03/2025 23:31,10/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume D is at 7% free,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248152,28/03/2025 06:12,01/04/2025 22:29,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume D is at 2% free | NOTIFY",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248718,28/03/2025 13:58,08/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248497,28/03/2025 15:39,07/04/2025 01:12,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248232,28/03/2025 22:15,08/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6 -  Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248570,29/03/2025 12:56,02/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_java = 2 | NOTIFY,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248836,29/03/2025 18:12,01/04/2025 21:00,User Service Restoration,3 - Medium,Re: RTMDS - esny4c3slsp06b02 /var at 87% // [#INC-551308],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249225,30/03/2025 02:51,02/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: essg2p1sldpp03a34 kernel: sfc 0000:12:00.1 etn6: link down,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249230,30/03/2025 03:13,06/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: essg2p1sldpp03a34 kernel: sfc 0000:12:00.1 etn6: link down,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249241,30/03/2025 05:13,03/04/2025 01:19,User Service Restoration,3 - Medium,Flapping Alert: MemoryCommitLimitPct = 98,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005248921,30/03/2025 09:03,02/04/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 5, Location System) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249311,30/03/2025 23:42,07/04/2025 21:00,User Service Restoration,3 - Medium,Network check request for JBIC TY6/Tama3,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249349,31/03/2025 08:07,09/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249353,31/03/2025 08:12,03/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249062,31/03/2025 09:07,10/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249614,31/03/2025 09:46,08/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249135,31/03/2025 15:56,03/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/31/25 16:06:54 - 288,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249474,31/03/2025 21:33,05/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 03/31/25 16:06:54 - 625,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249799,01/04/2025 05:05,19/04/2025 21:00,User Service Restoration,3 - Medium,Chronic alerts - FINIQ servers,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249805,01/04/2025 05:48,04/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: ServerRebooted = 19768,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249203,01/04/2025 05:52,01/04/2025 06:06,User Service Restoration,3 - Medium,Monitoring Alert: esnj2sltts02b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process ha,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249204,01/04/2025 05:52,01/04/2025 05:54,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005250231,01/04/2025 20:39,01/04/2025 20:42,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 94%",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005249975,02/04/2025 02:20,09/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005250523,02/04/2025 02:36,07/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005250844,02/04/2025 15:36,02/04/2025 15:41,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 24,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005250915,03/04/2025 06:21,15/04/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 1, Location System) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005251002,03/04/2025 15:35,03/04/2025 15:38,User Service Restoration,3 - Medium,Monitoring Alert: The driver detected a controller error on \Device\Harddisk1\DR1.,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005251987,04/04/2025 02:52,07/04/2025 21:00,User Service Restoration,3 - Medium,SG2 S618026 RDP access not working,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252580,04/04/2025 11:36,07/04/2025 21:00,User Service Restoration,4 - Low,Re: TK2 - Mizuho Securities - timeDifference alert on s640805tk7sl205 // [#INC-552316],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252075,04/04/2025 18:59,07/04/2025 21:00,User Service Restoration,3 - Medium,Re: RTMDS - esny4c3slsp06b02 /var at 86% // [#INC-552350],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252646,04/04/2025 22:29,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2p1sldpp01a25 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Proces,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252664,05/04/2025 01:27,06/04/2025 19:48,User Service Restoration,2 - High,Monitoring Alert: prc_sp_xport = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252673,05/04/2025 02:54,05/04/2025 02:55,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252677,05/04/2025 03:08,05/04/2025 03:11,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252375,05/04/2025 03:24,05/04/2025 03:25,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252680,05/04/2025 03:38,05/04/2025 03:39,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252123,05/04/2025 03:53,05/04/2025 03:55,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252126,05/04/2025 04:02,05/04/2025 04:03,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252127,05/04/2025 04:20,05/04/2025 04:21,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252133,05/04/2025 04:55,06/04/2025 17:02,User Service Restoration,4 - Low,NJ2 - Errors on s620728nj2sw10 // [#INC-552411] 14621246,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252380,05/04/2025 05:24,05/04/2025 05:25,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252687,05/04/2025 05:30,05/04/2025 05:31,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252689,05/04/2025 05:37,05/04/2025 05:39,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252136,05/04/2025 05:43,05/04/2025 05:45,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252391,05/04/2025 06:57,08/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 18645,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252392,05/04/2025 06:59,08/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: s640805tk7sl302 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252393,05/04/2025 06:59,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: s640805tk7sl202 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed |,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252147,05/04/2025 07:02,08/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 14975,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252394,05/04/2025 07:02,08/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 12572,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252149,05/04/2025 07:05,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: s640805tk7sl304 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252395,05/04/2025 07:05,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: s640805tk7sl204 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed |,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252408,05/04/2025 11:59,06/04/2025 19:45,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/05/25 06:34:02 - 624,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252708,05/04/2025 12:22,08/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 9386,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252168,05/04/2025 12:23,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: trhnj2slssd113a SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252410,05/04/2025 12:38,08/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: trhnj2slssd113a SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252411,05/04/2025 13:04,06/04/2025 19:46,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/05/25 09:43:34 - 499,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252758,06/04/2025 01:39,09/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/06/25 06:26:51 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252494,06/04/2025 07:20,09/04/2025 21:00,Infrastructure Event,2 - High,Monitoring Alert: Heartbeat missing since 04/06/25 11:44:27 - 35,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005252856,06/04/2025 12:42,09/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/06/25 11:14:43 - 387,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253151,06/04/2025 20:36,13/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 04/05/25 09:43:34 - 2391,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253154,06/04/2025 21:53,13/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/05/25 06:35:22 - 2656,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253472,07/04/2025 02:34,13/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/05/25 06:35:44 - 2937,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253515,07/04/2025 10:12,12/04/2025 13:30,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253522,07/04/2025 10:24,13/04/2025 23:21,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253267,07/04/2025 17:57,09/04/2025 02:31,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253327,08/04/2025 02:56,08/04/2025 03:01,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253098,08/04/2025 05:12,13/04/2025 23:26,User Service Restoration,2 - High,.....MonitoringAlert:HARDWAREEvent:FANfailed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254030,08/04/2025 13:47,17/04/2025 14:44,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19199631 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254084,08/04/2025 22:28,09/04/2025 03:56,Infrastructure Event,3 - Medium,"RE: INC000005254030 // Lumen MSS Initial Notification Alert - INC19199631 - P3
+Medium - Multiple Un",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253814,09/04/2025 01:53,15/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254152,09/04/2025 03:06,09/04/2025 03:09,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254153,09/04/2025 03:06,09/04/2025 03:09,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254154,09/04/2025 03:06,09/04/2025 03:09,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253824,09/04/2025 04:15,17/04/2025 21:00,User Service Restoration,3 - Medium,Re: Server unexpected reboot for Mizuho Securities UAT servers // [#INC-553212],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253831,09/04/2025 05:47,10/04/2025 16:03,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254175,09/04/2025 06:09,12/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005253836,09/04/2025 06:12,22/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255028,10/04/2025 23:05,26/04/2025 21:00,User Service Restoration,3 - Medium,Network interruption between CRT A (S644555SL01) and B (S644555SL02) for MUFG in TM3 // [#INC-55,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005254886,11/04/2025 09:41,19/04/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19221600 - P3 Medium - Traffic from an
+Unknown Mail Server",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005256148,12/04/2025 18:11,15/04/2025 21:00,User Service Restoration,3 - Medium,Re: V2 - NY4 - esny4c3slsp06b02 - /var 88% // [#INC-553932],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255657,12/04/2025 18:33,16/04/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19227762 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255659,12/04/2025 20:17,16/04/2025 21:00,Infrastructure Event,3 - Medium,"RE: INC000005255657 // Lumen MSS Initial Notification Alert - INC19227762 - P3
+Medium - Multiple Un",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255662,12/04/2025 20:41,19/04/2025 21:00,Infrastructure Event,3 - Medium,"RE: INC000005254030 // Lumen MSS Initial Notification Alert - INC19199631 - P3
+Medium - Multiple Un",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255749,13/04/2025 12:12,16/04/2025 01:11,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/13/25 06:52:26 - 499,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005255978,13/04/2025 12:54,23/04/2025 21:00,User Service Restoration,2 - High,hard drive 2 failure on server trhnj2slssd110a,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257465,16/04/2025 02:18,19/04/2025 21:00,User Service Restoration,3 - Medium,Pointing SA agent to another satellite server SY1,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257746,16/04/2025 02:50,16/04/2025 02:51,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257501,16/04/2025 04:21,20/04/2025 22:36,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:trhnj2slssd103b cmaeventd[5116]: Physical drive failed: Port 1I B,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257291,16/04/2025 04:39,24/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257304,16/04/2025 05:51,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257313,16/04/2025 06:53,29/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257565,16/04/2025 09:24,19/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257567,16/04/2025 09:24,19/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257838,16/04/2025 12:04,22/04/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume D is at 10% free",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257930,16/04/2025 12:05,22/04/2025 02:40,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume D is at 0% free | NOTIFY,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258538,17/04/2025 01:17,21/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005257996,17/04/2025 01:29,20/04/2025 21:00,User Service Restoration,3 - Medium,""" Pointing SA agent to another satellite server TK7""",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258600,17/04/2025 08:25,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/17/25 13:18:05 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258601,17/04/2025 08:25,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/17/25 13:17:37 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258036,17/04/2025 10:07,26/04/2025 09:43,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258082,17/04/2025 14:38,24/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258723,17/04/2025 22:37,23/04/2025 01:35,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258436,18/04/2025 02:49,18/04/2025 02:51,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258130,18/04/2025 03:28,21/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/18/25 06:13:20 - 133,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258144,18/04/2025 06:00,29/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 2 -  Location System) has been repaired,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258146,18/04/2025 06:13,26/04/2025 21:00,User Service Restoration,3 - Medium,s610651nj2sl42 - read only file system,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258489,18/04/2025 07:36,21/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: s610651nj2sl42 monitor: Sleeping 10 seconds before starting SIA... | NOTIFY,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258788,18/04/2025 09:26,30/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258864,18/04/2025 19:12,22/04/2025 21:00,User Service Restoration,3 - Medium,Re: NY4 - esny4c3slsp06b02 - /var 86% // [#INC-554954],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258895,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:12 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258896,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:23 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259195,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:19 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259196,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:25 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258189,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:29 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258897,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:19 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258190,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:57 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258191,19/04/2025 00:51,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:13 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258898,19/04/2025 00:52,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:13 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259205,19/04/2025 02:04,22/04/2025 21:00,User Service Restoration,3 - Medium,Multiple server time difference alert in NY4 // [#INC-555050],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259216,19/04/2025 02:57,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:07 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258908,19/04/2025 02:58,19/04/2025 04:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:08 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258194,19/04/2025 02:58,19/04/2025 04:09,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:09 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259217,19/04/2025 02:58,19/04/2025 04:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:09 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259218,19/04/2025 02:58,19/04/2025 04:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:04 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259219,19/04/2025 02:58,19/04/2025 04:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 05:43:09 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258209,19/04/2025 05:10,19/04/2025 05:12,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 30,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258949,19/04/2025 09:45,23/04/2025 01:26,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp04b02 cmaeventd[5667]: Physical drive failed: Port 1I Box 1 Bay 2 of Em,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259438,19/04/2025 14:36,22/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 14:46:53 - 288,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258971,19/04/2025 18:43,24/04/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19271122 - P3 Medium - Multiple Unique
+Clues for the Sam",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259289,19/04/2025 19:02,19/04/2025 19:38,User Service Restoration,3 - Medium,esny4c3slsp04a02 - /var alerting at 86% // [#INC-555114],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258974,19/04/2025 20:13,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 14:46:53 - 625,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259461,19/04/2025 21:08,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:HPE Ethernet 1Gb 4-port 331i Adapter - NIC Connectivity status chan,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259462,19/04/2025 21:08,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:HPE Ethernet 1Gb 4-port 331i Adapter - NIC Connectivity status ch,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259318,19/04/2025 22:44,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/19/25 22:54:17 - 288,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259320,19/04/2025 23:16,23/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: esnj2c2slsp04b02 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258987,19/04/2025 23:16,23/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:POST Error: 307-Fan Failure Detected - Fan 4 Failed. Action: Replac,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005258988,19/04/2025 23:27,23/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259028,20/04/2025 08:37,27/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259545,20/04/2025 18:21,25/04/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 04/19/25 22:54:17 - 1466,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259726,21/04/2025 01:08,22/04/2025 02:15,User Service Restoration,2 - High,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259599,21/04/2025 06:21,28/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259807,21/04/2025 15:25,26/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259695,22/04/2025 02:32,22/04/2025 02:33,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume /var is at 100% | NOTIFY",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260155,22/04/2025 03:33,25/04/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260221,22/04/2025 08:56,27/04/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260259,22/04/2025 12:59,26/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/22/25 17:51:47 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260404,22/04/2025 15:51,26/04/2025 13:18,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259966,22/04/2025 18:15,29/04/2025 10:28,User Service Restoration,3 - Medium,Monitoring Alert: esnj2p1slsp02b20 cmaeventd[5198]: Physical drive failed: Port 1I Box 1 Bay 1 of,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005259967,22/04/2025 18:26,24/04/2025 02:18,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/22/25 23:17:31 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260428,22/04/2025 22:34,22/04/2025 22:59,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 2) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260441,23/04/2025 00:31,27/04/2025 21:00,User Service Restoration,4 - Low,Ref INC000005260259Need to refill back to spare,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260676,23/04/2025 08:14,26/04/2025 20:19,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260794,24/04/2025 01:56,28/04/2025 21:00,User Service Restoration,4 - Low,Ref INC000005259967 for parts tracking,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260798,24/04/2025 02:35,27/04/2025 11:03,User Service Restoration,2 - High,HDD1 Failure in ppnj2p1sltp03b20 server,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261181,24/04/2025 08:10,29/04/2025 11:17,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /data02 is at 97%",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261182,24/04/2025 08:10,27/04/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 95%",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261320,24/04/2025 12:07,27/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 16:58:52 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261536,24/04/2025 12:08,24/04/2025 12:11,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 16:59:11 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261331,24/04/2025 12:08,24/04/2025 12:12,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:00:54 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261332,24/04/2025 12:08,27/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:00:53 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261346,24/04/2025 12:12,28/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:00:59 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261569,24/04/2025 12:18,24/04/2025 12:19,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:10:08 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260890,24/04/2025 12:18,27/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:09:47 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260893,24/04/2025 12:19,24/04/2025 12:26,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:10:48 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261370,24/04/2025 12:20,27/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:11:59 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261376,24/04/2025 12:21,27/04/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:13:49 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261378,24/04/2025 12:22,24/04/2025 12:26,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:14:00 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261379,24/04/2025 12:22,24/04/2025 12:29,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:13:49 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261380,24/04/2025 12:22,24/04/2025 12:35,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:15:40 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260904,24/04/2025 12:23,24/04/2025 12:27,Infrastructure Event,2 - High,Monitoring Alert: Heartbeat missing since 04/24/25 17:14:38 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261602,24/04/2025 12:25,24/04/2025 12:30,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:14:21 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260909,24/04/2025 12:25,27/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:16:57 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261607,24/04/2025 12:25,27/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:17:28 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005260924,24/04/2025 12:29,27/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:21:06 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261407,24/04/2025 12:30,24/04/2025 12:35,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/24/25 17:21:17 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005261901,24/04/2025 15:07,28/04/2025 20:40,User Service Restoration,2 - High,Monitoring Alert: esnj2c2slsp08b02 cmaeventd[6083]: Physical drive failed: Port 1I Box 1 Bay 1 of,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262008,25/04/2025 08:18,28/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 04/25/25 13:11:03 - 7,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262044,25/04/2025 11:23,28/04/2025 22:38,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262269,25/04/2025 18:03,26/04/2025 08:22,User Service Restoration,3 - Medium,RE: esny4c3slsp06b02 /var 86% // [#INC-556192],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262537,26/04/2025 06:09,26/04/2025 06:11,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262360,26/04/2025 08:17,26/04/2025 09:16,User Service Restoration,4 - Low,s620728nj2sw11 requires password reset for user radmin // [#INC-556295],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262567,26/04/2025 11:16,29/04/2025 00:56,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262583,26/04/2025 13:11,26/04/2025 13:14,User Service Restoration,3 - Medium,Monitoring Alert: DU_inodes:/var = 90,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262844,26/04/2025 19:05,30/04/2025 21:00,User Service Restoration,3 - Medium,RE: esny4c3slsp04a02 - /var alerting at 86% // [#INC-556364],Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262908,27/04/2025 06:22,30/04/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 4) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263067,27/04/2025 06:22,30/04/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 0, Port 4) has been repaired",Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263092,27/04/2025 09:49,27/04/2025 13:09,User Service Restoration,3 - Medium,Monitoring Alert: prc_ntpd = 0,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263094,27/04/2025 09:52,30/04/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: ppnj2c1sltsd04b SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Killed |,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005262980,27/04/2025 20:31,27/04/2025 22:13,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/27/25 23:16:45 - 134,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263141,27/04/2025 21:41,28/04/2025 02:04,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 04/27/25 23:16:45 - 204,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263354,28/04/2025 01:01,28/04/2025 01:49,User Service Restoration,2 - High,Monitoring Alert: The previous system shutdown at 5:16:29 AM on ?4/?28/?2025 was unexpected.,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005263309,28/04/2025 22:21,30/04/2025 23:08,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System) has been repaired,Incident,Apr-25
+REFINITIV_Hosting_ServiceDesk,INC000005240668,11/03/2025 19:56,15/05/2025 21:00,User Service Restoration,3 - Medium,New TAMA3 readiness for Go Live & Ops Acceptance (TK1/TY6 DC Move),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005251405,02/04/2025 12:46,11/05/2025 21:00,User Service Restoration,3 - Medium,RE: RTMDS Free Trail- Quantfluence,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005255304,10/04/2025 21:00,22/05/2025 21:00,User Service Restoration,3 - Medium,SG2 mail server issue // [#SR-553432],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005259471,20/04/2025 02:47,03/05/2025 21:00,User Service Restoration,4 - Low,Flapping Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005260079,21/04/2025 17:10,02/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005259696,22/04/2025 02:33,08/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005260994,23/04/2025 07:41,02/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005260895,24/04/2025 12:20,15/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 04/24/25 17:10:46 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005261740,25/04/2025 03:40,01/05/2025 02:15,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 04/25/25 08:32:07 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005262218,25/04/2025 13:32,02/05/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: Fan Failure (Fan 2, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005262529,26/04/2025 04:59,01/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005262566,26/04/2025 10:43,01/05/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 3, Port 1) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005262582,26/04/2025 13:09,01/05/2025 21:00,Infrastructure Event,3 - Medium,Monitoring Alert: Heartbeat missing since 04/26/25 13:20:39 - 288,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263071,27/04/2025 07:42,02/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume /data01 is at 99% | NOTIFY",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005262985,27/04/2025 21:11,01/05/2025 21:00,User Service Restoration,2 - High,V2- NJ2 - trhnj2swsad101a - Windows admin server A side Probe connection status down // [#INC-5565,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263370,28/04/2025 05:27,03/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263755,28/04/2025 20:54,03/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263310,28/04/2025 22:32,03/05/2025 21:00,User Service Restoration,4 - Low,Tracking INC000005262044 to refill back to spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263465,29/04/2025 00:08,03/05/2025 21:00,User Service Restoration,4 - Low,Tracking INC000005262567 to refill back to spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005263499,29/04/2025 05:06,03/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Microsoft-Windows-Security-SPP: License Activation (slui.exe) failed with the foll,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005264889,30/04/2025 18:55,05/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005264663,30/04/2025 22:12,05/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005264666,30/04/2025 22:30,01/05/2025 00:24,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 1, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005265267,01/05/2025 10:24,10/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005264776,01/05/2025 11:34,04/05/2025 21:00,Infrastructure Event,2 - High,Monitoring Alert: Heartbeat missing since 04/26/25 13:20:39 - 7393,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005265364,01/05/2025 19:17,04/05/2025 21:00,Infrastructure Event,2 - High,Monitoring Alert: Heartbeat missing since 04/26/25 13:20:39 - 7855,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005265110,01/05/2025 19:35,05/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005265517,02/05/2025 02:45,10/05/2025 21:00,User Service Restoration,2 - High,HDD2 Failure on eslo1p1sldpp08b26 server,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266025,02/05/2025 03:38,09/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: HARDWARE Event:FAN failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005265536,02/05/2025 03:41,10/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: HARDWARE Event:FAN failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266072,02/05/2025 07:57,05/05/2025 21:00,User Service Restoration,4 - Low,NY4 - esny4c3slsp04a02 high /var usage // [#INC-557297],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266638,03/05/2025 01:42,08/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: High disk usage -  volume D is at 1% free | NOTIFY,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266682,03/05/2025 11:37,07/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 6 -  Location System) has been repaired,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266696,03/05/2025 18:37,07/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19356932 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266794,04/05/2025 12:10,07/05/2025 01:51,User Service Restoration,4 - Low,INC000005266682/ refill back to spare server,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267005,05/05/2025 01:55,08/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267225,05/05/2025 02:35,14/05/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005266907,05/05/2025 11:17,08/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19365791 - P3 Medium - Multiple
+Authentication Failures b",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267104,05/05/2025 13:39,06/05/2025 21:00,User Service Restoration,3 - Medium,Help with Login,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267137,05/05/2025 17:47,14/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 98,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267154,05/05/2025 20:02,12/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/06/25 00:54:29 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267631,06/05/2025 06:15,06/05/2025 22:55,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267810,06/05/2025 20:59,13/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 4, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005267498,07/05/2025 03:15,07/05/2025 23:09,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268516,07/05/2025 20:28,11/05/2025 21:00,User Service Restoration,3 - Medium,eth6 link flapping on server emslo4slsed001a,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268544,07/05/2025 23:07,12/05/2025 23:56,User Service Restoration,4 - Low,INC000005267498//  Fan module need to refill back spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268292,08/05/2025 03:02,11/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/08/25 07:53:16 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268725,08/05/2025 03:06,12/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 05/08/25 07:57:11 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268786,08/05/2025 03:30,14/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/08/25 08:09:18 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269041,08/05/2025 07:43,08/05/2025 08:03,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/08/25 12:33:07 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269344,08/05/2025 08:04,15/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/08/25 12:46:09 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268894,08/05/2025 08:04,11/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/08/25 12:47:55 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269144,08/05/2025 10:26,08/05/2025 10:31,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/08/25 15:18:34 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268931,08/05/2025 10:38,14/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: Heartbeat missing since 05/08/25 15:31:03 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269201,08/05/2025 11:35,13/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269235,08/05/2025 13:29,14/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005268967,08/05/2025 14:00,14/05/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 1, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269515,09/05/2025 07:22,12/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/09/25 12:14:07 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269597,09/05/2025 13:06,14/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: PORT_ORACLE = 1,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269696,09/05/2025 13:06,14/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: prc_tnslsnr = 0 | NOTIFY,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270124,09/05/2025 20:38,09/05/2025 20:43,User Service Restoration,3 - Medium,Monitoring Alert: 10.251.244.194 is not reachable,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269760,10/05/2025 01:31,10/05/2025 01:33,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 20,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270222,10/05/2025 17:35,10/05/2025 18:34,User Service Restoration,3 - Medium,Re: V2 - NY4 - esny4c3slsp06b02 - /var at 88% // [#INC-558823],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270526,10/05/2025 18:32,13/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19399366 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005269858,11/05/2025 04:00,11/05/2025 23:03,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270440,11/05/2025 19:19,11/05/2025 19:21,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /var is at 96%",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270828,11/05/2025 20:57,15/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 4, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270833,11/05/2025 23:05,17/05/2025 21:00,User Service Restoration,4 - Low,CRQ000000587267// FAN module need to refill back to spare server .,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270848,12/05/2025 02:49,13/05/2025 23:38,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 3, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270856,12/05/2025 03:58,13/05/2025 00:09,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270692,12/05/2025 07:05,16/05/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270699,12/05/2025 07:22,16/05/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /data01 is at 90%",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270760,12/05/2025 12:04,16/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 2 -  Location System) has been repaired,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271150,12/05/2025 13:10,15/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005270824,12/05/2025 23:17,16/05/2025 21:00,Infrastructure Event,3 - Medium,RE: NY4 - trhmb1rslsp05a02 /var 94% // [#INC-559258],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271003,13/05/2025 00:06,17/05/2025 21:00,User Service Restoration,4 - Low,CRQ000000587475// Need to refill back to spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271046,13/05/2025 06:32,21/05/2025 00:07,User Service Restoration,3 - Medium,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271279,13/05/2025 06:47,19/05/2025 00:53,User Service Restoration,4 - Low,Monitoring Alert: tresnj2c1sldp01b07 Physical drive failed: Port 1I Box 1 Bay 2,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271900,13/05/2025 13:06,25/05/2025 13:13,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume /data01 is at 95%",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271901,13/05/2025 13:07,28/05/2025 21:00,User Service Restoration,3 - Medium,"Monitoring Alert: High disk usage, volume D is at 4% free",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271923,13/05/2025 14:09,20/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005271408,13/05/2025 23:35,20/05/2025 21:00,User Service Restoration,4 - Low,CRQ000000587911// fan module need to refill back to spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272015,14/05/2025 04:16,15/05/2025 23:50,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272710,14/05/2025 07:30,25/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272126,14/05/2025 15:37,14/05/2025 15:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 33,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272842,15/05/2025 05:46,21/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Error: DIMM 10 Degraded,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272550,15/05/2025 05:50,18/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: s637102nj2sl010  Physical drive failed: Port 1I Box 1 Bay 2,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272557,15/05/2025 06:33,20/05/2025 23:56,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272589,15/05/2025 09:46,21/05/2025 23:07,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272597,15/05/2025 10:08,20/05/2025 22:49,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272227,15/05/2025 11:46,22/05/2025 00:57,User Service Restoration,2 - High,ESNJ2P1SLDP12A21 (DL360 G10) has amber light on drive HDD failure,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272917,15/05/2025 15:37,15/05/2025 15:39,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 33,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272988,15/05/2025 17:36,20/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272991,15/05/2025 17:48,20/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: Fan Failure (Fan 2, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272273,15/05/2025 20:17,18/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: trestk7sldp06a07 SIA_HC_ERROR: Process: /usr/local/monitor/bin/scheduler : Process,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005272297,15/05/2025 21:41,19/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 7337,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273023,15/05/2025 21:43,19/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 3, Port 1) has been repairedResolut",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273269,16/05/2025 03:29,27/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event: Disk failure,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273271,16/05/2025 03:31,25/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273272,16/05/2025 03:45,22/05/2025 02:34,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273276,16/05/2025 03:56,25/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273281,16/05/2025 04:42,31/05/2025 18:07,User Service Restoration,2 - High,Log Alert: HARDWARE Event:,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273570,16/05/2025 04:54,27/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273586,16/05/2025 06:21,24/05/2025 11:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273620,16/05/2025 07:35,18/05/2025 16:13,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273304,16/05/2025 08:17,24/05/2025 11:05,User Service Restoration,2 - High,Log Alert: HARDWARE Event:,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273128,16/05/2025 08:53,29/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/16/25 05:32:55 - 499,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273642,16/05/2025 10:30,22/05/2025 17:21,User Service Restoration,2 - High,Log Alert: HARDWARE Event:,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273323,16/05/2025 10:54,22/05/2025 17:18,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273156,16/05/2025 12:08,18/05/2025 15:59,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273158,16/05/2025 12:17,16/05/2025 13:50,User Service Restoration,2 - High,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273691,16/05/2025 15:37,16/05/2025 15:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 31,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273378,16/05/2025 16:32,30/05/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: HARDWARE Event:Fan Failure (Fan 7, Location System) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273845,16/05/2025 20:05,20/05/2025 21:00,User Service Restoration,3 - Medium,: s609669shsl002 bond0 Bonding Alert - etn5 active // [#INC-560140],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273408,16/05/2025 21:23,20/05/2025 21:00,User Service Restoration,4 - Low,"Monitoring Alert: HARDWARE Event:Network Adapter Link Down (Slot 1, Port 2) has been repaired",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273413,16/05/2025 21:52,20/05/2025 21:00,User Service Restoration,3 - Medium,s609669shsl002 bond0 Bonding Alert - etn5 active // [#INC-560140],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273730,17/05/2025 00:49,20/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 05:40:30 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273422,17/05/2025 00:56,27/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273429,17/05/2025 02:54,20/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 07:46:35 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273913,17/05/2025 03:40,20/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 08:32:38 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273441,17/05/2025 04:15,17/05/2025 04:19,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/17/25 09:08:05 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273444,17/05/2025 04:43,20/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 09:36:05 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273921,17/05/2025 06:08,17/05/2025 06:12,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 34,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273453,17/05/2025 06:19,17/05/2025 06:23,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/17/25 11:10:42 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273942,17/05/2025 15:02,20/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 19:54:17 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273956,17/05/2025 18:47,21/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19440349 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273488,17/05/2025 19:28,30/05/2025 21:00,User Service Restoration,4 - Low,Execution: MySQL services is not running,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005273792,17/05/2025 22:13,21/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/18/25 03:05:55 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274165,18/05/2025 04:28,21/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/17/25 23:02:09 - 625,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274011,18/05/2025 04:42,19/05/2025 06:11,User Service Restoration,3 - Medium,Monitoring Alert: prc_scheduler = 0,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274028,18/05/2025 08:32,26/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19443359 - P3 Medium - Traffic from an
+Unknown Mail Serv",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274043,18/05/2025 10:18,18/05/2025 11:34,User Service Restoration,2 - High,Monitoring Alert: ServerRebooted = 9492,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274072,18/05/2025 15:53,20/05/2025 02:04,User Service Restoration,4 - Low,Tracking case for INC000005273156,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274073,18/05/2025 16:08,20/05/2025 01:59,User Service Restoration,4 - Low,Tracking case for INC000005273620 // INC000005273158,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274474,18/05/2025 16:23,25/05/2025 13:02,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274099,19/05/2025 01:44,19/05/2025 01:48,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 99,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274249,19/05/2025 02:51,26/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274530,19/05/2025 03:23,29/05/2025 22:34,User Service Restoration,3 - Medium,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274531,19/05/2025 03:34,28/05/2025 22:43,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274533,19/05/2025 03:48,29/05/2025 17:49,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274263,19/05/2025 05:22,30/05/2025 21:00,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274121,19/05/2025 05:31,25/05/2025 12:53,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274767,19/05/2025 10:02,25/05/2025 12:57,User Service Restoration,2 - High,Log Alert: HARDWARE Event:Disk failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274792,19/05/2025 13:17,26/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System) has been repaired,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274614,19/05/2025 15:37,19/05/2025 15:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 34,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274414,20/05/2025 03:20,26/05/2025 00:35,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Power supply failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005274705,20/05/2025 03:24,30/05/2025 21:00,Infrastructure Event,2 - High,SG2 S618026 VPN connectivity issue,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005275172,21/05/2025 05:56,28/05/2025 21:00,User Service Restoration,3 - Medium,Monitoring Alert: MemoryCommitLimitPct = 99,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005275949,21/05/2025 12:27,25/05/2025 21:00,User Service Restoration,2 - High,"Monitoring Alert: High disk usage, volume /data02 is at 100% | NOTIFY",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005276259,22/05/2025 04:54,31/05/2025 21:00,User Service Restoration,2 - High,Monitoring Alert: System Fans Not Redundant (Location System) has been repaired,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005276320,22/05/2025 12:45,25/05/2025 12:11,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005276854,23/05/2025 13:55,27/05/2025 22:21,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:Fan Failure (Fan 1 -  Location System) has been repaired,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005277139,23/05/2025 21:32,30/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: emsny4sldp03a11 cmaeventd[3629]: Physical drive failed: Port 1I Box 1 Bay 1 of Emb,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005276925,24/05/2025 02:16,28/05/2025 04:07,User Service Restoration,3 - Medium,Monitoring Alert: System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005277005,24/05/2025 18:32,28/05/2025 21:00,Infrastructure Event,3 - Medium,"Lumen MSS Initial Notification Alert - INC19488732 - P3 Medium - Multiple Unique
+Clues for the Same",Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005277380,26/05/2025 05:03,29/05/2025 21:00,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 13710,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005277945,27/05/2025 16:36,30/05/2025 17:58,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:System Fans Not Redundant (Location System),Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005278213,27/05/2025 22:17,29/05/2025 02:00,User Service Restoration,4 - Low,INC000005276854///INC000005276259  //  FAN module need to refill back to spare,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005278655,28/05/2025 10:55,30/05/2025 00:02,User Service Restoration,2 - High,Monitoring Alert: HARDWARE Event:FAN failed,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279898,30/05/2025 15:37,30/05/2025 15:40,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 30,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005280207,30/05/2025 19:17,31/05/2025 08:40,User Service Restoration,3 - Medium,V2 - LO1 - eslo1p3sldmm01b- /var at 86% // [#INC-563062],Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279661,30/05/2025 20:47,30/05/2025 21:06,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 01:39:54 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279663,30/05/2025 20:47,30/05/2025 21:06,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/31/25 01:39:48 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279664,30/05/2025 20:47,30/05/2025 21:06,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 01:39:47 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279690,30/05/2025 21:31,30/05/2025 21:39,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 02:22:54 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279952,30/05/2025 21:31,30/05/2025 21:38,User Service Restoration,4 - Low,Monitoring Alert: Heartbeat missing since 05/31/25 02:22:59 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279691,30/05/2025 21:31,30/05/2025 21:38,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 02:23:15 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279958,30/05/2025 22:03,30/05/2025 22:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 02:56:00 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279708,30/05/2025 22:03,30/05/2025 22:08,User Service Restoration,2 - High,Monitoring Alert: Heartbeat missing since 05/31/25 02:55:58 - 7,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279759,31/05/2025 06:09,31/05/2025 08:21,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted =29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279760,31/05/2025 06:12,31/05/2025 08:23,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279761,31/05/2025 06:15,31/05/2025 08:22,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005280247,31/05/2025 06:19,31/05/2025 08:32,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005280248,31/05/2025 06:22,31/05/2025 08:27,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005280249,31/05/2025 06:25,31/05/2025 08:29,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279763,31/05/2025 06:29,31/05/2025 08:26,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279764,31/05/2025 06:32,31/05/2025 08:25,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
+REFINITIV_Hosting_ServiceDesk,INC000005279765,31/05/2025 06:35,31/05/2025 06:38,User Service Restoration,4 - Low,Monitoring Alert: ServerRebooted = 29,Incident,May-25
