@@ -119,37 +119,37 @@ python datagen.py
 ```
 metrics-anomaly-detection/
 │
-├── 🎯 Main Applications
-│   ├── anomaly_detector_csv_realtime_dashboard.py  # Primary application
-│   ├── anomaly_detection.py                       # VM anomaly detection
-│   ├── realtime_anomaly_detector.py               # Core detector
-│   └── realtime_anomaly_detector2.py             # Enhanced version
+├── 🎯 Core Applications
+│   ├── anomaly_detector_csv_realtime_dashboard.py  # Main application with dashboard
+│   ├── anomaly_detector_dashboard.py              # Alternative dashboard version
+│   └── datagen.py                                 # Sample data generator
 │
-├── 🌐 Dashboard Variants
-│   ├── anomaly_detector_dashboard.py              # Basic dashboard
-│   └── anomaly_detector_dashboard2.py            # Advanced dashboard
+├── 🌐 Web Interface
+│   └── templates/
+│       └── dashboard.html                          # Interactive web dashboard
 │
-├── 🔧 Utilities
-│   ├── datagen.py                                 # Sample data generator
-│   ├── metrics_producer.py                       # Data producer utility
-│   └── clean.py                                   # Data cleaning tools
-│
-├── 📊 Data & Templates
-│   ├── sample_metrics2k.csv                      # Sample dataset
-│   ├── vmCloud_data.csv                          # VM dataset
-│   ├── templates/dashboard.html                   # Web interface
-│   └── requirements.txt                          # Python dependencies
+├── 📊 Data Files
+│   ├── sample_metrics2k.csv                       # Sample dataset (2000 records)
+│   └── requirements.txt                           # Python dependencies
 │
 ├── 📝 Logs & Output
-│   └── logs/                                      # System logs
-│       ├── system_monitor.log                    # Main log
-│       ├── metrics_history.csv                   # Historical data
-│       ├── anomalies.json                        # Anomaly records
-│       └── csv_analysis.log                      # Analysis logs
+│   └── logs/                                       # Auto-generated logs
+│       ├── system_monitor.log                     # Main application log
+│       ├── csv_analysis.log                       # CSV processing log
+│       ├── metrics_history.csv                    # Historical metrics data
+│       ├── metrics_data.csv                       # Processed metrics
+│       └── anomalies.json                         # Detected anomalies
 │
-└── 📚 Documentation
-    ├── README.md                                  # This file
-    └── technical.md                               # Technical details
+├── 📚 Documentation
+│   ├── README.md                                   # This file
+│   └── technical.md                                # Technical documentation
+│
+├── ⚙️ Configuration
+│   ├── .gitignore                                  # Git ignore rules
+│   └── venv/                                       # Python virtual environment
+│
+└── 🔧 Version Control
+    └── .git/                                       # Git repository data
 ```
 
 ## 📊 Monitored Metrics
