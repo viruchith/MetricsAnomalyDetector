@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen Predictive Maintenance Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .dashboard-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, #ff0080 0%, #ff8c00 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .lumen-logo {
+            width: 120px;
+            height: 60px;
+            background: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 30px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .lumen-logo::before {
+            content: 'LUMEN';
+            font-weight: bold;
+            font-size: 18px;
+            color: #ff0080;
+            letter-spacing: 2px;
+        }
+
+        .header-content {
+            flex: 1;
+            position: relative;
+            z-index: 2;
+        }
+
+        .dashboard-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .dashboard-subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid #ff0080;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .alerts-section {
+            padding: 30px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title::before {
+            content: '⚡';
+            margin-right: 10px;
+            font-size: 28px;
+        }
+
+        .alerts-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .alert-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            border-left: 6px solid;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .alert-card.high-risk {
+            border-left-color: #e74c3c;
+            background: linear-gradient(135deg, #fff 0%, #ffebee 100%);
+        }
+
+        .alert-card.medium-risk {
+            border-left-color: #f39c12;
+            background: linear-gradient(135deg, #fff 0%, #fff8e1 100%);
+        }
+
+        .alert-card.low-risk {
+            border-left-color: #27ae60;
+            background: linear-gradient(135deg, #fff 0%, #f1f8e9 100%);
+        }
+
+        .alert-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+
+        .alert-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .machine-id {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .risk-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .risk-badge.high {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .risk-badge.medium {
+            background: #f39c12;
+            color: white;
+        }
+
+        .risk-badge.low {
+            background: #27ae60;
+            color: white;
+        }
+
+        .alert-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .detail-item {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        .detail-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .detail-label {
+            font-size: 12px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .issues-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .issue-tag {
+            padding: 4px 8px;
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            border-radius: 15px;
+            font-size: 12px;
+            border: 1px solid rgba(231, 76, 60, 0.2);
+        }
+
+        .refresh-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #ff0080 0%, #ff8c00 100%);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 10px 20px rgba(255, 0, 128, 0.3);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        .refresh-button:hover {
+            transform: scale(1.1) rotate(180deg);
+        }
+
+        .loading-spinner {
+            display: none;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #ff0080;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        .no-alerts {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            font-size: 18px;
+        }
+
+        .last-updated {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .pulse {
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .header {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .lumen-logo {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
+            .dashboard-title {
+                font-size: 24px;
+            }
+
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+                padding: 20px;
+            }
+
+            .alerts-section {
+                padding: 20px;
+            }
+
+            .alert-details {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header with Lumen Logo -->
+        <div class="header">
+            <div class="lumen-logo"></div>
+            <div class="header-content">
+                <h1 class="dashboard-title">🚨 Predictive Maintenance Dashboard</h1>
+                <p class="dashboard-subtitle">Real-time Machine Health Monitoring & Failure Prediction</p>
+            </div>
+        </div>
+
+        <!-- Statistics Bar -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="totalMachines">-</div>
+                <div class="stat-label">Total Machines</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="criticalAlerts">-</div>
+                <div class="stat-label">Critical Alerts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="filesProcessed">-</div>
+                <div class="stat-label">Files Processed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="totalSamples">-</div>
+                <div class="stat-label">Total Samples</div>
+            </div>
+        </div>
+
+        <!-- Alerts Section -->
+        <div class="alerts-section">
+            <h2 class="section-title">Machine Status & Alerts</h2>
+            <div class="loading-spinner" id="loadingSpinner"></div>
+            <div class="alerts-grid" id="alertsGrid">
+                <!-- Alerts will be populated here -->
+            </div>
+            <div class="no-alerts" id="noAlerts" style="display: none;">
+                ✅ All systems operating normally - No critical alerts detected
+            </div>
+        </div>
+
+        <!-- Last Updated -->
+        <div class="last-updated" id="lastUpdated">
+            Last updated: Never
+        </div>
+    </div>
+
+    <!-- Refresh Button -->
+    <button class="refresh-button" onclick="refreshServerData()" title="Refresh Data & Run Analysis">
+        🔄
+    </button>
+
+    <script>
+        // Sample data structure - replace with actual data from your system
+        let dashboardData = {
+            summary: {
+                totalMachines: 13,
+                criticalAlerts: 5,
+                filesProcessed: 4,
+                totalSamples: 1023,
+                lastUpdate: '2025-08-16 14:09:00'
+            },
+            alerts: [
+                {
+                    machineId: '101',
+                    failureType: '🔧 Hard Disk',
+                    riskLevel: 'High',
+                    likelihood: 94.0,
+                    timeToFail: '⚠️ Imminent',
+                    issues: ['🔥 High Temp', '📳 High Vib', '⚡ High Current']
+                },
+                {
+                    machineId: '102',
+                    failureType: '⚡ Power Supply',
+                    riskLevel: 'High',
+                    likelihood: 92.0,
+                    timeToFail: '⚠️ Imminent',
+                    issues: ['🔥 High Temp', '📳 High Vib', '⚡ High Current']
+                },
+                {
+                    machineId: '117',
+                    failureType: '🔧 Hard Disk',
+                    riskLevel: 'High',
+                    likelihood: 81.0,
+                    timeToFail: '⚠️ Imminent',
+                    issues: ['🔥 High Temp', '📳 High Vib', '🌀 Low Fan', '⚡ High Current']
+                },
+                {
+                    machineId: '120',
+                    failureType: '🧠 Motherboard',
+                    riskLevel: 'High',
+                    likelihood: 81.0,
+                    timeToFail: '⚠️ Imminent',
+                    issues: ['🔥 High Temp', '📳 High Vib', '🌀 Low Fan', '⚡ High Current']
+                },
+                {
+                    machineId: '121',
+                    failureType: '⚡ Power Supply',
+                    riskLevel: 'High',
+                    likelihood: 93.0,
+                    timeToFail: '⚠️ Imminent',
+                    issues: ['🔥 High Temp', '📳 High Vib', '🌀 Low Fan', '⚡ High Current']
+                }
+            ]
+        };
+
+        function loadDashboardData() {
+            // Show loading spinner
+            document.getElementById('loadingSpinner').style.display = 'block';
+            document.getElementById('alertsGrid').style.opacity = '0.5';
+
+            // Try to fetch real data from Python backend
+            fetchDataFromPython().then(success => {
+                updateStatistics();
+                updateAlerts();
+                updateLastUpdated();
+
+                // Hide loading spinner
+                document.getElementById('loadingSpinner').style.display = 'none';
+                document.getElementById('alertsGrid').style.opacity = '1';
+                
+                if (success) {
+                    console.log('📊 Dashboard updated with live data');
+                } else {
+                    console.log('📊 Dashboard updated with sample data');
+                }
+            });
+        }
+
+        function updateStatistics() {
+            document.getElementById('totalMachines').textContent = dashboardData.summary.totalMachines;
+            document.getElementById('criticalAlerts').textContent = dashboardData.summary.criticalAlerts;
+            document.getElementById('filesProcessed').textContent = dashboardData.summary.filesProcessed;
+            document.getElementById('totalSamples').textContent = dashboardData.summary.totalSamples.toLocaleString();
+        }
+
+        function updateAlerts() {
+            const alertsGrid = document.getElementById('alertsGrid');
+            const noAlerts = document.getElementById('noAlerts');
+
+            if (dashboardData.alerts.length === 0) {
+                alertsGrid.style.display = 'none';
+                noAlerts.style.display = 'block';
+                return;
+            }
+
+            alertsGrid.style.display = 'grid';
+            noAlerts.style.display = 'none';
+            alertsGrid.innerHTML = '';
+
+            dashboardData.alerts.forEach(alert => {
+                const alertCard = createAlertCard(alert);
+                alertsGrid.appendChild(alertCard);
+            });
+        }
+
+        function createAlertCard(alert) {
+            const card = document.createElement('div');
+            card.className = `alert-card ${alert.riskLevel.toLowerCase()}-risk`;
+
+            const riskClass = alert.riskLevel.toLowerCase();
+            const pulseClass = alert.riskLevel === 'High' ? 'pulse' : '';
+
+            card.innerHTML = `
+                <div class="alert-header">
+                    <div class="machine-id ${pulseClass}">Machine ${alert.machineId}</div>
+                    <span class="risk-badge ${riskClass}">${alert.riskLevel} Risk</span>
+                </div>
+                <div class="alert-details">
+                    <div class="detail-item">
+                        <div class="detail-value">${alert.failureType}</div>
+                        <div class="detail-label">Failure Type</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-value">${alert.likelihood.toFixed(1)}%</div>
+                        <div class="detail-label">Likelihood</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-value">${alert.timeToFail}</div>
+                        <div class="detail-label">Time to Fail</div>
+                    </div>
+                </div>
+                <div class="issues-tags">
+                    ${alert.issues.map(issue => `<span class="issue-tag">${issue}</span>`).join('')}
+                </div>
+            `;
+
+            return card;
+        }
+
+        function updateLastUpdated() {
+            const now = new Date();
+            const timeString = now.toLocaleString();
+            document.getElementById('lastUpdated').textContent = `Last updated: ${timeString}`;
+        }
+
+        // Auto-refresh every 30 seconds
+        setInterval(loadDashboardData, 30000);
+
+        // Load initial data
+        document.addEventListener('DOMContentLoaded', loadDashboardData);
+
+        // Function to load data from your Python system
+        async function fetchDataFromPython() {
+            try {
+                console.log('🔄 Fetching fresh data from Python system...');
+                const response = await fetch('/api/dashboard-data');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                dashboardData = data;
+                console.log('✅ Data successfully loaded from Python system');
+                return true;
+            } catch (error) {
+                console.error('❌ Error fetching data from Python system:', error);
+                console.log('📊 Using sample data as fallback');
+                return false;
+            }
+        }
+
+        // Function to trigger data refresh on the server
+        async function refreshServerData() {
+            try {
+                console.log('🔄 Triggering server data refresh...');
+                const response = await fetch('/api/refresh');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                console.log('✅ Server data refresh completed:', result.message);
+                
+                // Wait a moment then fetch fresh data
+                setTimeout(async () => {
+                    await fetchDataFromPython();
+                    updateStatistics();
+                    updateAlerts();
+                    updateLastUpdated();
+                }, 2000);
+                
+                return true;
+            } catch (error) {
+                console.error('❌ Error refreshing server data:', error);
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
