@@ -11,6 +11,8 @@ import os
 from datetime import datetime
 import logging
 import argparse
+import sqlite3
+import hashlib
 
 # Flask imports for web dashboard
 try:
@@ -44,6 +46,9 @@ class RealTimeAnomalyDetector:
         # Setup logging
         self.log_file = log_file
         self._setup_logging()
+        
+        # Setup SQLite database
+        self._setup_database()
         
         # For dashboard updates
         self.latest_metrics = {}
@@ -82,6 +87,36 @@ class RealTimeAnomalyDetector:
         if not os.path.exists(self.metrics_log_file):
             with open(self.metrics_log_file, 'w') as f:
                 f.write("timestamp,cpu_percent,cpu_frequency,memory_percent,memory_available_gb,disk_read_mb,disk_write_mb,network_sent_mb,network_recv_mb,is_anomaly,anomaly_score\n")
+    
+    def _setup_database(self):
+        """Setup SQLite database for storing CSV analysis history"""
+        self.db_path = "anomaly_history.db"
+        self.conn = sqlite3.connect(self.db_path, check_same_thread=False)
+        self.conn.execute('''CREATE TABLE IF NOT EXISTS csv_analyses (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            filename TEXT NOT NULL,
+            file_hash TEXT UNIQUE,
+            upload_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            total_records INTEGER,
+            anomalies_found INTEGER,
+            anomaly_rate REAL,
+            analysis_data TEXT
+        )''')
+        
+        self.conn.execute('''CREATE TABLE IF NOT EXISTS csv_anomalies (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            analysis_id INTEGER,
+            row_index INTEGER,
+            timestamp REAL,
+            anomaly_score REAL,
+            reason TEXT,
+            severity_factors TEXT,
+            metrics TEXT,
+            FOREIGN KEY (analysis_id) REFERENCES csv_analyses (id)
+        )''')
+        
+        self.conn.commit()
+        self.logger.info("Database initialized successfully")
     
     def log_metrics(self, metrics, is_anomaly=False, anomaly_score=None):
         """Log metrics to CSV file"""
@@ -305,7 +340,7 @@ class RealTimeAnomalyDetector:
                 self.log_metrics(self.data_buffer[-1], is_anomaly, score)
                 
                 # Handle anomalies - only show high severity in dashboard
-                if is_anomaly and score < -0.5:  # High severity threshold
+                if is_anomaly and score < -0.1:  # High severity threshold
                     # Analyze anomaly reason
                     reason_analysis = self.analyze_anomaly_reason(self.data_buffer[-1], score)
                     
@@ -356,6 +391,125 @@ class RealTimeAnomalyDetector:
         except Exception as e:
             self.logger.error(f"Error loading CSV  {e}")
             return []
+    
+    def _calculate_file_hash(self, file_path):
+        """Calculate SHA256 hash of a file"""
+        hash_sha256 = hashlib.sha256()
+        with open(file_path, "rb") as f:
+            for chunk in iter(lambda: f.read(4096), b""):
+                hash_sha256.update(chunk)
+        return hash_sha256.hexdigest()
+    
+    def save_csv_analysis_to_db(self, filename, results):
+        """Save CSV analysis results to database"""
+        try:
+            # Calculate file hash
+            file_hash = self._calculate_file_hash(filename)
+            
+            # Calculate statistics
+            total_records = len(results)
+            anomalies = [r for r in results if r['is_anomaly']]
+            anomalies_found = len(anomalies)
+            anomaly_rate = (anomalies_found / total_records * 100) if total_records > 0 else 0
+            
+            # Save analysis summary
+            cursor = self.conn.cursor()
+            cursor.execute('''INSERT OR IGNORE INTO csv_analyses 
+                (filename, file_hash, total_records, anomalies_found, anomaly_rate, analysis_data)
+                VALUES (?, ?, ?, ?, ?, ?)''',
+                (os.path.basename(filename), file_hash, total_records, anomalies_found, anomaly_rate, 
+                 json.dumps({'summary_only': True}, default=str)))
+            
+            # Get the analysis ID
+            analysis_id = cursor.lastrowid
+            if analysis_id == 0:  # If IGNORE was triggered (duplicate)
+                cursor.execute('SELECT id FROM csv_analyses WHERE file_hash = ?', (file_hash,))
+                analysis_id = cursor.fetchone()[0]
+            
+            # Save individual anomalies
+            for result in anomalies:
+                cursor.execute('''INSERT INTO csv_anomalies 
+                    (analysis_id, row_index, timestamp, anomaly_score, reason, severity_factors, metrics)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)''',
+                    (analysis_id, result.get('index', 0), result.get('timestamp', 0),
+                     result.get('anomaly_score', 0), result.get('reason', ''),
+                     json.dumps(result.get('severity_factors', []), default=str),
+                     json.dumps(result.get('metrics', {}), default=str)))
+            
+            self.conn.commit()
+            self.logger.info(f"Analysis results saved to database for {filename}")
+            return analysis_id
+            
+        except Exception as e:
+            self.logger.error(f"Error saving analysis to database: {e}")
+            return None
+    
+    def get_csv_analysis_history(self):
+        """Retrieve CSV analysis history from database"""
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT id, filename, upload_time, total_records, anomalies_found, anomaly_rate
+                FROM csv_analyses ORDER BY upload_time DESC LIMIT 50''')
+            rows = cursor.fetchall()
+            
+            history = []
+            for row in rows:
+                history.append({
+                    'id': row[0],
+                    'filename': row[1],
+                    'upload_time': row[2],
+                    'total_records': row[3],
+                    'anomalies_found': row[4],
+                    'anomaly_rate': row[5]
+                })
+            return history
+        except Exception as e:
+            self.logger.error(f"Error retrieving analysis history: {e}")
+            return []
+    
+    def get_analysis_details(self, analysis_id):
+        """Retrieve detailed results for a specific analysis"""
+        try:
+            cursor = self.conn.cursor()
+            
+            # Get analysis summary
+            cursor.execute('''SELECT filename, upload_time, total_records, anomalies_found, anomaly_rate
+                FROM csv_analyses WHERE id = ?''', (analysis_id,))
+            summary = cursor.fetchone()
+            
+            if not summary:
+                return None
+            
+            # Get anomalies for this analysis
+            cursor.execute('''SELECT row_index, timestamp, anomaly_score, reason, severity_factors, metrics
+                FROM csv_anomalies WHERE analysis_id = ? ORDER BY anomaly_score ASC''', (analysis_id,))
+            anomaly_rows = cursor.fetchall()
+            
+            anomalies = []
+            for row in anomaly_rows:
+                anomalies.append({
+                    'index': row[0],
+                    'timestamp': row[1],
+                    'anomaly_score': row[2],
+                    'reason': row[3],
+                    'severity_factors': json.loads(row[4]) if row[4] else [],
+                    'metrics': json.loads(row[5]) if row[5] else {}
+                })
+            
+            return {
+                'summary': {
+                    'id': analysis_id,
+                    'filename': summary[0],
+                    'upload_time': summary[1],
+                    'total_records': summary[2],
+                    'anomalies_found': summary[3],
+                    'anomaly_rate': summary[4]
+                },
+                'anomalies': anomalies
+            }
+        except Exception as e:
+            self.logger.error(f"Error retrieving analysis details: {e}")
+            return None
     
     def detect_anomalies_from_csv(self, csv_file_path, output_file=None):
         """Detect anomalies in historical CSV data"""
@@ -425,34 +579,21 @@ class RealTimeAnomalyDetector:
             self.csv_anomalies = [r for r in results if r['is_anomaly']]
             self.logger.info(f"Anomaly detection complete. Found {anomalies_found} anomalies out of {len(results)} records")
             
+            # Save results to database
+            analysis_id = self.save_csv_analysis_to_db(csv_file_path, results)
+            
             # Save results to output file if specified
             if output_file:
                 self.save_anomaly_results(results, output_file)
             
-            return results
+            return {
+                'results': results,
+                'analysis_id': analysis_id
+            }
             
         except Exception as e:
             self.logger.error(f"Error detecting anomalies: {e}")
             return []
-    
-    def save_anomaly_results(self, results, output_file):
-        """Save anomaly detection results to CSV file"""
-        try:
-            # Convert results to DataFrame
-            df_results = pd.DataFrame([{
-                'index': r['index'],
-                'timestamp': r['timestamp'],
-                'is_anomaly': r['is_anomaly'],
-                'anomaly_score': r['anomaly_score'],
-                'reason': r['reason'],
-                **r['metrics']
-            } for r in results])
-            
-            # Save to CSV
-            df_results.to_csv(output_file, index=False)
-            self.logger.info(f"Anomaly results saved to {output_file}")
-        except Exception as e:
-            self.logger.error(f"Error saving anomaly results: {e}")
 
 # Flask Dashboard Application
 if FLASK_AVAILABLE:
@@ -476,10 +617,10 @@ if FLASK_AVAILABLE:
     @app.route('/api/anomalies')
     def get_anomalies():
         if detector:
-            # Only return high severity anomalies (-0.5 and below)
+            # Only return high severity anomalies (-0.1 and below)
             high_severity_anomalies = []
             for anomaly in reversed(detector.anomalies):
-                if anomaly['anomaly_score'] < -0.5:
+                if anomaly['anomaly_score'] < -0.1:
                     high_severity_anomalies.append({
                         'timestamp': anomaly['timestamp'],
                         'anomaly_score': anomaly['anomaly_score'],
@@ -586,24 +727,82 @@ if FLASK_AVAILABLE:
             file.save(temp_path)
             
             # Process the CSV file
-            results = detector.detect_anomalies_from_csv(temp_path)
+            result = detector.detect_anomalies_from_csv(temp_path)
             
             # Clean up temp file
             os.remove(temp_path)
             
-            if results:
+            if result and 'results' in result:
+                results = result['results']
                 anomalies = [r for r in results if r['is_anomaly']]
+                anomaly_rate = len(anomalies)/len(results)*100 if results else 0
+                
                 return jsonify({
                     'success': True,
                     'total_records': len(results),
                     'anomalies_found': len(anomalies),
-                    'anomaly_rate': len(anomalies)/len(results)*100 if results else 0
+                    'anomaly_rate': anomaly_rate,
+                    'analysis_id': result.get('analysis_id')
                 })
             else:
                 return jsonify({'error': 'Failed to process CSV file'}), 500
                 
         except Exception as e:
             return jsonify({'error': f'Error processing file: {str(e)}'}), 500
+
+    @app.route('/api/analysis-history')
+    def get_analysis_history():
+        if detector:
+            history = detector.get_csv_analysis_history()
+            return jsonify(history)
+        return jsonify([])
+
+    @app.route('/api/analysis-details/<int:analysis_id>')
+    def get_analysis_details(analysis_id):
+        if detector:
+            details = detector.get_analysis_details(analysis_id)
+            if details:
+                # Make sure all data is JSON serializable
+                serializable_details = {
+                    'summary': details['summary'],
+                    'anomalies': []
+                }
+                
+                for anomaly in details['anomalies']:
+                    serializable_anomaly = {}
+                    for key, value in anomaly.items():
+                        if isinstance(value, (np.integer, np.floating)):
+                            serializable_anomaly[key] = float(value)
+                        elif isinstance(value, (int, float)):
+                            serializable_anomaly[key] = value
+                        elif isinstance(value, dict):
+                            serializable_dict = {}
+                            for k, v in value.items():
+                                if isinstance(v, (np.integer, np.floating)):
+                                    serializable_dict[k] = float(v)
+                                elif isinstance(v, (int, float)):
+                                    serializable_dict[k] = v
+                                else:
+                                    serializable_dict[k] = str(v)
+                            serializable_anomaly[key] = serializable_dict
+                        elif isinstance(value, list):
+                            serializable_list = []
+                            for item in value:
+                                if isinstance(item, (np.integer, np.floating)):
+                                    serializable_list.append(float(item))
+                                elif isinstance(item, (int, float)):
+                                    serializable_list.append(item)
+                                else:
+                                    serializable_list.append(str(item))
+                            serializable_anomaly[key] = serializable_list
+                        else:
+                            serializable_anomaly[key] = str(value)
+                    serializable_details['anomalies'].append(serializable_anomaly)
+                
+                return jsonify(serializable_details)
+            else:
+                return jsonify({'error': 'Analysis not found'}), 404
+        return jsonify({'error': 'Detector not initialized'}), 500
 
     @app.route('/api/status')
     def get_status():
@@ -653,10 +852,10 @@ def main():
         if args.output_file:
             print(f"Output will be saved to: {args.output_file}")
         
-        results = detector.detect_anomalies_from_csv(args.csv_file, args.output_file)
+        result = detector.detect_anomalies_from_csv(args.csv_file, args.output_file)
         
-        if results:
-            # Print summary
+        if result and 'results' in result:
+            results = result['results']
             anomalies = [r for r in results if r['is_anomaly']]
             print(f"\nAnalysis complete!")
             print(f"Total records processed: {len(results)}")
@@ -835,8 +1034,22 @@ if __name__ == "__main__":
         .csv-chart-wrapper { height: 400px; position: relative; }
         
         /* CSV Anomalies */
-        .csv-anomalies { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        .csv-anomalies { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
         .csv-anomaly-item { padding: 15px; border-left: 4px solid #e74c3c; margin-bottom: 10px; background: #fdf2f2; border-radius: 5px; }
+        
+        /* Analysis History */
+        .history-section { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        .history-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .history-table th, .history-table td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        .history-table th { background-color: #f8f9fa; font-weight: bold; }
+        .history-table tr:hover { background-color: #f5f5f5; }
+        .history-table button { background: #3498db; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
+        .history-table button:hover { background: #2980b9; }
+        
+        /* Analysis Details */
+        .analysis-details { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        .details-header { border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; }
+        .detail-item { padding: 10px; border-bottom: 1px solid #eee; }
     </style>
 </head>
 <body>
@@ -854,6 +1067,15 @@ if __name__ == "__main__":
                 <button onclick="uploadCSV()">Analyze CSV</button>
             </div>
             <div id="upload-status"></div>
+        </div>
+
+        <!-- Analysis History Section -->
+        <div class="history-section">
+            <h2>Analysis History</h2>
+            <button onclick="loadAnalysisHistory()">Refresh History</button>
+            <div id="history-container">
+                <p>Loading analysis history...</p>
+            </div>
         </div>
 
         <div class="metrics-grid">
@@ -925,9 +1147,17 @@ if __name__ == "__main__":
             </div>
         </div>
 
+        <!-- Analysis Details (Hidden by default) -->
+        <div class="analysis-details" id="analysis-details-section" style="display: none;">
+            <div class="details-header">
+                <h2 id="analysis-details-title">Analysis Details</h2>
+            </div>
+            <div id="analysis-details-content"></div>
+        </div>
+
         <!-- Real-time Anomalies -->
         <div class="anomalies-list">
-            <h2>Real-time Critical Anomalies Only (Score < -0.5)</h2>
+            <h2>Real-time Critical Anomalies Only (Score < -0.1)</h2>
             <div id="anomalies-container">
                 <p>No critical anomalies detected. System appears normal.</p>
             </div>
@@ -1268,6 +1498,8 @@ if __name__ == "__main__":
                     showUploadStatus('Success! Processed ' + data.total_records + ' records. Found ' + data.anomalies_found + ' anomalies (' + data.anomaly_rate.toFixed(2) + '%).', 'success');
                     // Refresh CSV data and anomalies
                     refreshCSVData();
+                    // Refresh analysis history
+                    loadAnalysisHistory();
                 }
             })
             .catch(error => {
@@ -1337,6 +1569,101 @@ if __name__ == "__main__":
                     }
                 })
                 .catch(console.error);
+        }
+
+        // Load analysis history
+        function loadAnalysisHistory() {
+            fetch('/api/analysis-history')
+                .then(response => response.json())
+                .then(history => {
+                    const container = document.getElementById('history-container');
+                    if (history.length > 0) {
+                        let html = '<table class="history-table">';
+                        html += '<thead><tr><th>File Name</th><th>Date</th><th>Records</th><th>Anomalies</th><th>Rate</th><th>Actions</th></tr></thead>';
+                        html += '<tbody>';
+                        
+                        history.forEach(item => {
+                            html += '<tr>';
+                            html += '<td>' + item.filename + '</td>';
+                            html += '<td>' + new Date(item.upload_time).toLocaleString() + '</td>';
+                            html += '<td>' + item.total_records + '</td>';
+                            html += '<td>' + item.anomalies_found + '</td>';
+                            html += '<td>' + item.anomaly_rate.toFixed(2) + '%</td>';
+                            html += '<td><button onclick="viewAnalysisDetails(' + item.id + ')">View Details</button></td>';
+                            html += '</tr>';
+                        });
+                        
+                        html += '</tbody></table>';
+                        container.innerHTML = html;
+                    } else {
+                        container.innerHTML = '<p>No analysis history found.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading history:', error);
+                    document.getElementById('history-container').innerHTML = '<p>Error loading analysis history.</p>';
+                });
+        }
+
+        // View analysis details
+        function viewAnalysisDetails(analysisId) {
+            fetch('/api/analysis-details/' + analysisId)
+                .then(response => response.json())
+                .then(details => {
+                    if (details.error) {
+                        alert('Error: ' + details.error);
+                        return;
+                    }
+                    
+                    const section = document.getElementById('analysis-details-section');
+                    const title = document.getElementById('analysis-details-title');
+                    const content = document.getElementById('analysis-details-content');
+                    
+                    // Set title
+                    title.textContent = 'Analysis Details: ' + details.summary.filename;
+                    
+                    // Set content
+                    let html = '<div style="margin-bottom: 20px;">';
+                    html += '<strong>Upload Time:</strong> ' + new Date(details.summary.upload_time).toLocaleString() + '<br>';
+                    html += '<strong>Total Records:</strong> ' + details.summary.total_records + '<br>';
+                    html += '<strong>Anomalies Found:</strong> ' + details.summary.anomalies_found + '<br>';
+                    html += '<strong>Anomaly Rate:</strong> ' + details.summary.anomaly_rate.toFixed(2) + '%<br>';
+                    html += '</div>';
+                    
+                    if (details.anomalies.length > 0) {
+                        html += '<h3>Detected Anomalies (' + details.anomalies.length + ')</h3>';
+                        
+                        // Show top 50 anomalies
+                        const topAnomalies = details.anomalies.slice(0, 50);
+                        topAnomalies.forEach(anomaly => {
+                            html += '<div class="detail-item">';
+                            html += '<div><strong>Row ' + anomaly.index + '</strong> - Score: <span class="anomaly-score">' + anomaly.anomaly_score.toFixed(3) + '</span></div>';
+                            html += '<div class="anomaly-reason"><strong>Reason:</strong> ' + anomaly.reason + '</div>';
+                            if (anomaly.severity_factors && anomaly.severity_factors.length > 0) {
+                                html += '<div class="severity-factors"><strong>Severity Factors:</strong> ' + anomaly.severity_factors.join(', ') + '</div>';
+                            }
+                            html += '<div>';
+                            html += '<span style="color: #3498db;">CPU: ' + (anomaly.metrics.cpu_percent ? parseFloat(anomaly.metrics.cpu_percent).toFixed(1) : 'N/A') + '%</span> | ';
+                            html += '<span style="color: #9b59b6;">Memory: ' + (anomaly.metrics.memory_percent ? parseFloat(anomaly.metrics.memory_percent).toFixed(1) : 'N/A') + '%</span> | ';
+                            html += '<span style="color: #2ecc71;">Disk: ' + (anomaly.metrics.disk_read_mb ? parseFloat(anomaly.metrics.disk_read_mb).toFixed(2) : 'N/A') + ' MB/s</span> | ';
+                            html += '<span style="color: #e74c3c;">Network: ' + (anomaly.metrics.network_sent_mb ? parseFloat(anomaly.metrics.network_sent_mb).toFixed(2) : 'N/A') + ' MB/s</span>';
+                            html += '</div>';
+                            html += '</div>';
+                        });
+                    } else {
+                        html += '<p>No anomalies detected in this analysis.</p>';
+                    }
+                    
+                    content.innerHTML = html;
+                    section.style.display = 'block';
+                    
+                    // Scroll to details section
+                    section.scrollIntoView({ behavior: 'smooth' });
+                })
+                .catch(error => {
+                    console.error('Error loading analysis details:', error);
+                    alert('Error loading analysis details.');
+                });
         }
 
         // Handle real-time metrics updates
@@ -1429,6 +1756,9 @@ if __name__ == "__main__":
             
             // Refresh CSV anomalies
             refreshCSVData();
+            
+            // Load analysis history
+            loadAnalysisHistory();
         }).catch(function(error) {
             console.error('Error fetching initial ', error);
             updateStatus('error');
